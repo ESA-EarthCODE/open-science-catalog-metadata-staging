@@ -3,15 +3,25 @@
   "title": "new product",
   "stac_version": "1.0.0",
   "type": "Collection",
-  "description": "bla blub",
+  "description": "bla blub\nkk",
   "license": "CC-BY-4.0",
   "extent": {
     "spatial": {
-      "bbox": []
+      "bbox": [
+        [
+          -11.38942531876836,
+          39.041099473688234,
+          16.320953667747034,
+          57.59295499021527
+        ]
+      ]
     },
     "temporal": {
       "interval": [
-        null
+        [
+          "2025-01-01T00:00:00Z",
+          null
+        ]
       ]
     }
   },

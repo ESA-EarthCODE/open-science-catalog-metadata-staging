@@ -102,6 +102,12 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/f6c35bf2-3715-424e-8eec-c620735a9854/collection.json",
+      "type": "application/json",
+      "title": "new product"
     }
   ],
   "stac_extensions": [

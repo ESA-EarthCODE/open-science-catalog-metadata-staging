@@ -1,4 +1,29 @@
 {
   "id": "f6c35bf2-3715-424e-8eec-c620735a9854",
-  "title": "new product"
+  "title": "new product",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "bla blub",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/4d-antarctica/collection.json",
+      "title": "4D-ANTARCTICA",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "ongoing",
+  "osc:project": "4d-antarctica"
 }

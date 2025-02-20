@@ -43,6 +43,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/b9d2e5b1-4a7a-41ef-a12b-dbc024192132/collection.json",
+      "type": "application/json",
+      "title": "YPIEEO"
     }
   ],
   "stac_extensions": [

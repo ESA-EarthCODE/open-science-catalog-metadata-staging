@@ -1,4 +1,29 @@
 {
   "id": "b9d2e5b1-4a7a-41ef-a12b-dbc024192132",
-  "title": "YPIEEO"
+  "title": "YPIEEO",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "my awesome description",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/ai4dte/collection.json",
+      "type": "application/json",
+      "title": "AI4DTE"
+    }
+  ],
+  "osc:type": "product",
+  "osc:status": "ongoing",
+  "osc:project": "ai4dte"
 }

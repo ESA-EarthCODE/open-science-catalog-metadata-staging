@@ -1,4 +1,69 @@
 {
   "id": "7a57bbe1-5e12-4b5c-bcff-23b7459ce8a0",
-  "title": "Test Product"
+  "title": "Test Product",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -78.82564841498557,
+          -32.400000000000006,
+          -0.1501440922190227,
+          10.199999999999989
+        ],
+        [
+          -40.38876080691641,
+          -51.000000000000014,
+          35.88443804034583,
+          26.39999999999999
+        ],
+        [
+          23.27233429394815,
+          -4.800000000000011,
+          68.31556195965422,
+          44.999999999999986
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "",
+          ""
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "",
+  "osc:region": "",
+  "osc:missions": [],
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }

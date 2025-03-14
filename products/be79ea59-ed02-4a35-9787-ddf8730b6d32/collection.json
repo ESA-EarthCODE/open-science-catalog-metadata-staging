@@ -1,4 +1,57 @@
 {
   "id": "be79ea59-ed02-4a35-9787-ddf8730b6d32",
-  "title": "demo"
+  "title": "demo dataset",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "addd",
+  "keywords": [
+    "something"
+  ],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/4dmed-hydrology/collection.json",
+      "type": "application/json",
+      "title": "4DMED-Hydrology"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "4dmed-hydrology",
+  "osc:region": "",
+  "osc:variables": [],
+  "osc:missions": [],
+  "osc:experiment": "",
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }

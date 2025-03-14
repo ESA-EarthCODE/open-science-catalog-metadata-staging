@@ -1,0 +1,57 @@
+{
+  "id": "be79ea59-ed02-4a35-9787-ddf8730b6d32",
+  "title": "demo dataset",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "adddee",
+  "keywords": [
+    "something"
+  ],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../projects/ai4dte/collection.json",
+      "type": "application/json",
+      "title": "AI4DTE"
+    }
+  ],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "osc:project": "ai4dte",
+  "osc:region": "Europe",
+  "osc:variables": [],
+  "osc:missions": [],
+  "osc:experiment": "should not be required",
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
+}

@@ -43,6 +43,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/be79ea59-ed02-4a35-9787-ddf8730b6d32/collection.json",
+      "type": "application/json",
+      "title": "demo dataset"
     }
   ],
   "stac_extensions": [

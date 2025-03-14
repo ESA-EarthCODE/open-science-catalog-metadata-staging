@@ -4,7 +4,7 @@
   "stac_version": "1.0.0",
   "stac_extensions": [],
   "type": "Collection",
-  "description": "addd",
+  "description": "adddee",
   "keywords": [
     "something"
   ],
@@ -25,19 +25,19 @@
   "links": [
     {
       "rel": "related",
-      "href": "../../projects/4dmed-hydrology/collection.json",
+      "href": "../../projects/ai4dte/collection.json",
       "type": "application/json",
-      "title": "4DMED-Hydrology"
+      "title": "AI4DTE"
     }
   ],
   "created": "",
   "osc:type": "product",
-  "osc:status": "planned",
-  "osc:project": "4dmed-hydrology",
-  "osc:region": "",
+  "osc:status": "completed",
+  "osc:project": "ai4dte",
+  "osc:region": "Europe",
   "osc:variables": [],
   "osc:missions": [],
-  "osc:experiment": "",
+  "osc:experiment": "should not be required",
   "themes": [
     {
       "scheme": "OSC:SCHEME:THEMES",

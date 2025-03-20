@@ -1,0 +1,81 @@
+{
+  "id": "ab3aa9bd-872b-44e7-9a25-90bb23eba6cb",
+  "title": "Demo Product",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "Hello World!",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -38.117647058823536,
+          -15.352941176470594,
+          43.94117647058823,
+          36.52941176470588
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-03-18T00:00:00Z",
+          "2025-03-20T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [
+    {
+      "href": "../../projects/3d-earth/collection.json",
+      "title": "3D-EARTH",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../variables/13-ch4-delta/catalog.json",
+      "title": "(13)CH4 delta",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/aeolus/catalog.json",
+      "title": "AEOLUS",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "created": "2021-07-07T00:00:00Z",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "3d-earth",
+  "osc:region": "global",
+  "osc:variables": [
+    "13-ch4-delta"
+  ],
+  "osc:missions": [
+    "aeolus"
+  ],
+  "osc:experiment": "Test",
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "Test",
+      "unit": ""
+    }
+  ]
+}

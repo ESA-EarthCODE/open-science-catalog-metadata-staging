@@ -27,11 +27,18 @@
   "providers": [],
   "summaries": [],
   "assets": {},
-  "links": [],
+  "links": [
+    {
+      "href": "../../projects/3d-earth/collection.json",
+      "title": "3D-EARTH",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
   "created": "",
   "osc:type": "product",
   "osc:status": "planned",
-  "osc:project": "",
+  "osc:project": "3d-earth",
   "osc:region": "",
   "osc:variables": [],
   "osc:missions": [],

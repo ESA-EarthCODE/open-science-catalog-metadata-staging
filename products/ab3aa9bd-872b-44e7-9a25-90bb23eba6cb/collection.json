@@ -1,4 +1,55 @@
 {
   "id": "ab3aa9bd-872b-44e7-9a25-90bb23eba6cb",
-  "title": "Demo Product"
+  "title": "Demo Product",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "Hello World!",
+  "keywords": [],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -38.117647058823536,
+          -15.352941176470594,
+          43.94117647058823,
+          36.52941176470588
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [],
+  "created": "",
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "",
+  "osc:region": "",
+  "osc:variables": [],
+  "osc:missions": [],
+  "osc:experiment": "",
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "",
+      "unit": ""
+    }
+  ]
 }

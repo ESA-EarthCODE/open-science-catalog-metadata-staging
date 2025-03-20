@@ -36,15 +36,31 @@
       "title": "3D-EARTH",
       "type": "application/json",
       "rel": "related"
+    },
+    {
+      "href": "../../variables/13-ch4-delta/catalog.json",
+      "title": "(13)CH4 delta",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/aeolus/catalog.json",
+      "title": "AEOLUS",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
-  "created": "",
+  "created": "2021-07-07T00:00:00Z",
   "osc:type": "product",
   "osc:status": "planned",
   "osc:project": "3d-earth",
   "osc:region": "global",
-  "osc:variables": [],
-  "osc:missions": [],
+  "osc:variables": [
+    "13-ch4-delta"
+  ],
+  "osc:missions": [
+    "aeolus"
+  ],
   "osc:experiment": "Test",
   "themes": [
     {
@@ -58,7 +74,7 @@
   ],
   "cf:parameter": [
     {
-      "name": "",
+      "name": "Test",
       "unit": ""
     }
   ]

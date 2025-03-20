@@ -20,7 +20,10 @@
     },
     "temporal": {
       "interval": [
-        null
+        [
+          "2025-03-18T00:00:00Z",
+          "2025-03-20T23:59:59Z"
+        ]
       ]
     }
   },
@@ -39,10 +42,10 @@
   "osc:type": "product",
   "osc:status": "planned",
   "osc:project": "3d-earth",
-  "osc:region": "",
+  "osc:region": "global",
   "osc:variables": [],
   "osc:missions": [],
-  "osc:experiment": "",
+  "osc:experiment": "Test",
   "themes": [
     {
       "scheme": "OSC:SCHEME:THEMES",

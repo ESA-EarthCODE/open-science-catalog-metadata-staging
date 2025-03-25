@@ -1,6 +1,45 @@
 {
   "id": "test",
   "properties": {
-    "title": "test"
-  }
+    "title": "test",
+    "created": "",
+    "updated": "",
+    "type": "dataset",
+    "description": "lets test this",
+    "keywords": [],
+    "themes": [],
+    "language": {
+      "code": "",
+      "name": "",
+      "alternate": "",
+      "dir": "ltr"
+    },
+    "languages": [],
+    "resourceLanguages": [],
+    "externalIds": [],
+    "formats": [],
+    "contacts": [
+      {
+        "identifier": "",
+        "name": "",
+        "positionName": "",
+        "organization": "",
+        "phones": [],
+        "emails": [],
+        "addresses": [],
+        "links": [],
+        "contactInstructions": [],
+        "roles": []
+      }
+    ],
+    "license": "CC-BY-4.0",
+    "rights": "",
+    "osc:project": "polaris"
+  },
+  "type": "Feature",
+  "time": null,
+  "geometry": null,
+  "conformsTo": [],
+  "links": [],
+  "linkTemplates": []
 }

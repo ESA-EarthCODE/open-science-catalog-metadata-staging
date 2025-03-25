@@ -2,8 +2,8 @@
   "id": "test",
   "properties": {
     "title": "test",
-    "created": "2025-03-25",
-    "updated": "2025-03-25",
+    "created": "2025-03-25T00:00Z",
+    "updated": "2025-03-25T00:00Z",
     "type": "dataset",
     "description": "lets test this",
     "keywords": [],

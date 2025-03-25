@@ -10,7 +10,7 @@
     "updated": "2025-01-21T18:40:00Z",
     "type": "workflow",
     "title": "ESA worldcereal global maize detector",
-    "description": "A maize detection algorithm.",
+    "description": "A maize detection algorithm. Test",
     "keywords": [
       "agriculture",
       "crops"
@@ -24,18 +24,27 @@
           {
             "href": "https://www.vito.be/",
             "rel": "about",
-            "type": "text/html"
+            "type": "text/html",
+            "title": ""
           },
           {
             "href": "https://github.com/kvantricht",
             "rel": "about",
-            "type": "text/html"
+            "type": "text/html",
+            "title": ""
           }
         ],
-        "contactInstructions": "Contact via VITO",
+        "contactInstructions": [
+          "Contact via VITO"
+        ],
         "roles": [
           "principal investigator"
-        ]
+        ],
+        "identifier": "",
+        "positionName": "",
+        "phones": [],
+        "emails": [],
+        "addresses": []
       },
       {
         "name": "VITO",
@@ -43,13 +52,22 @@
           {
             "href": "https://www.vito.be/",
             "rel": "about",
-            "type": "text/html"
+            "type": "text/html",
+            "title": ""
           }
         ],
-        "contactInstructions": "SEE WEBSITE",
+        "contactInstructions": [
+          "SEE WEBSITE"
+        ],
         "roles": [
           "processor"
-        ]
+        ],
+        "identifier": "",
+        "positionName": "",
+        "organization": "",
+        "phones": [],
+        "emails": [],
+        "addresses": []
       }
     ],
     "themes": [
@@ -75,12 +93,23 @@
     ],
     "formats": [
       {
-        "name": "GeoTIFF"
+        "name": "GeoTIFF",
+        "mediaType": ""
       }
     ],
-    "license": "others",
+    "license": "various",
     "osc:project": "worldcereal",
-    "version": "2"
+    "version": "2",
+    "language": {
+      "code": "",
+      "name": "",
+      "alternate": "",
+      "dir": "ltr"
+    },
+    "languages": [],
+    "resourceLanguages": [],
+    "externalIds": [],
+    "rights": ""
   },
   "linkTemplates": [],
   "links": [
@@ -88,58 +117,102 @@
       "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
-      "title": "Open Science Catalog"
+      "title": "Open Science Catalog",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
-      "title": "Workflows"
+      "title": "Workflows",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "related",
       "href": "../../projects/worldcereal/collection.json",
       "type": "application/json",
-      "title": "Project: WorldCereal"
+      "title": "Project: WorldCereal",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
-      "title": "Theme: Land"
+      "title": "Theme: Land",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "child",
       "href": "../../experiments/worldcereal-experiment/record.json",
       "type": "application/json",
-      "title": "ESA WorldCereal Experiment"
+      "title": "ESA WorldCereal Experiment",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "openeo-process",
       "type": "application/json",
       "title": "openEO Process Definition",
-      "href": "https://raw.githubusercontent.com/ESA-APEx/apex_algorithms/refs/heads/main/openeo_udp/worldcereal_crop_extent.json"
+      "href": "https://raw.githubusercontent.com/ESA-APEx/apex_algorithms/refs/heads/main/openeo_udp/worldcereal_crop_extent.json",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "git",
       "type": "application/json",
       "title": "Git source repository",
-      "href": "https://github.com/WorldCereal/worldcereal-classification.git"
+      "href": "https://github.com/WorldCereal/worldcereal-classification.git",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "service",
       "type": "application/json",
       "title": "CDSE openEO federation",
-      "href": "https://openeofed.dataspace.copernicus.eu"
+      "href": "https://openeofed.dataspace.copernicus.eu",
+      "hreflang": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "license",
-      "href": "https://apex.esa.int/license"
+      "href": "https://apex.esa.int/license",
+      "type": "",
+      "hreflang": "",
+      "title": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     },
     {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/worldcereal-workflow/record.json",
-      "type": "application/json"
+      "type": "application/json",
+      "hreflang": "",
+      "title": "",
+      "length": 0,
+      "created": "",
+      "updated": ""
     }
-  ]
+  ],
+  "time": null
 }

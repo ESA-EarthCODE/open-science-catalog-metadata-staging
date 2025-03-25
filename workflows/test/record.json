@@ -2,12 +2,21 @@
   "id": "test",
   "properties": {
     "title": "test",
-    "created": "",
-    "updated": "",
+    "created": "20250325",
+    "updated": "20250325",
     "type": "dataset",
     "description": "lets test this",
     "keywords": [],
-    "themes": [],
+    "themes": [
+      {
+        "scheme": "OSC:SCHEME:THEMES",
+        "concepts": [
+          {
+            "id": "atmosphere"
+          }
+        ]
+      }
+    ],
     "language": {
       "code": "",
       "name": "",

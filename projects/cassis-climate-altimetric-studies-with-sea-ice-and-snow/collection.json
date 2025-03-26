@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "cassis-climate-altimetric-studies-with-sea-ice-and-snow",
   "stac_version": "1.0.0",
-  "description": "This project aims to demonstrate: the use of radar echo processing methods (also called retrackers) based on physical models instead of current heuristic models; the use of new snow depth observation products (dual frequency altimetry, Advanced Microwave Scanning Radiometer, AMSR); a better quantification of uncertainties in sea ice products.",
+  "description": "This project aims to demonstrate: the use of radar echo processing methods (also called retrackers) based on physical models instead of current heuristic models; the use of new snow depth observation products (dual frequency altimetry, Advanced Microwave Scanning Radiometer, AMSR); a better quantification of uncertainties in sea ice products.\n\nSome test changes",
   "links": [
     {
       "rel": "root",

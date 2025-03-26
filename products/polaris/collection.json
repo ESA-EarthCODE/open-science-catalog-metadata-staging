@@ -77,16 +77,16 @@
     "sea-ice"
   ],
   "osc:missions": [],
-  "updated": "2025-02-19T23:00:00Z",
+  "updated": "2025-03-26T12:00:00Z",
   "title": "POLARIS",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },
@@ -99,7 +99,7 @@
       ]
     }
   },
-    "license": "CC-BY-SA-4.0",
+  "license": "CC-BY-SA-4.0",
   "keywords": [
     "sea ice",
     "polar"

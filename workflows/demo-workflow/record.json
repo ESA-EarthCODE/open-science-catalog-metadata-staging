@@ -1,6 +1,9 @@
 {
   "id": "demo-workflow",
   "properties": {
-    "title": "demo-workflow"
-  }
+    "title": "demo-workflow",
+    "osc:project": "sen4carbon-theme-1-terrestrial-gross-primary-production-sen4gpp"
+  },
+  "type": "Feature",
+  "geometry": null
 }

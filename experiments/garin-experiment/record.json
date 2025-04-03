@@ -1,6 +1,10 @@
 {
   "id": "garin-experiment",
   "properties": {
-    "title": "Garin Experiment"
-  }
+    "title": "Garin Experiment",
+    "osc:workflow": "garin's workflow"
+  },
+  "type": "Feature",
+  "geometry": null,
+  "links": []
 }

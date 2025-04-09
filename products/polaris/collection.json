@@ -29,12 +29,6 @@
     },
     {
       "rel": "related",
-      "href": "../../themes/oceans/catalog.json",
-      "type": "application/json",
-      "title": "Theme: Oceans"
-    },
-    {
-      "rel": "related",
       "href": "../../variables/sea-ice/catalog.json",
       "type": "application/json",
       "title": "Variable: Sea Ice"
@@ -49,6 +43,18 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/polaris/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Cryosphere"
+    },
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "title": "Oceans",
+      "type": "application/json",
+      "rel": "related"
     }
   ],
   "stac_extensions": [
@@ -65,7 +71,15 @@
   "version": "1.0",
   "themes": [
     {
-      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    },
+    {
+      "scheme": "OSC:SCHEME:THEMES",
       "concepts": [
         {
           "id": "oceans"
@@ -77,16 +91,16 @@
     "sea-ice"
   ],
   "osc:missions": [],
-  "updated": "2025-02-19T23:00:00Z",
+  "updated": "2025-03-31T12:00:00Z",
   "title": "POLARIS",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -177.03375142456926,
+          -84.82634730538922,
+          196.75714973925372,
+          87.98802833785554
         ]
       ]
     },
@@ -99,7 +113,7 @@
       ]
     }
   },
-    "license": "CC-BY-SA-4.0",
+  "license": "CC-BY-SA-4.0",
   "keywords": [
     "sea ice",
     "polar"

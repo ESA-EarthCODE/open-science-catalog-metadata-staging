@@ -1,4 +1,22 @@
 {
   "id": "seasfire-cube-new",
-  "title": "seasfire-cube-new"
+  "title": "seasfire-cube-new",
+  "stac_version": "1.0.0",
+  "type": "Collection",
+  "description": "Description",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": ""
 }

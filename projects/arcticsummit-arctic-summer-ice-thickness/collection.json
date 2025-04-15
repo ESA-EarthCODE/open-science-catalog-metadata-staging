@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "arcticsummit-arctic-summer-ice-thickness",
   "stac_version": "1.0.0",
-  "description": "Using new techniques to measure pan-Arctic sea ice thickness from the satellite radar altimeter Cryosat-2 during summer months",
+  "description": "Using new techniques to measure pan-Arctic sea ice thickness from the satellite radar altimeter Cryosat-2 during summer months\nTest 123",
   "links": [
     {
       "rel": "root",
@@ -13,12 +13,14 @@
     {
       "rel": "via",
       "href": "https://eo4society.esa.int/projects/arcticsummit-arctic-summer-ice-thickness/",
-      "title": "Website"
+      "title": "Website",
+      "type": "application/json"
     },
     {
       "rel": "via",
       "href": "https://eo4society.esa.int/projects/arcticsummit-arctic-summer-ice-thickness/",
-      "title": "EO4Society Link"
+      "title": "EO4Society Link",
+      "type": "application/json"
     },
     {
       "rel": "child",
@@ -41,7 +43,8 @@
     {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/arcticsummit-arctic-summer-ice-thickness/collection.json",
-      "type": "application/json"
+      "type": "application/json",
+      "title": ""
     },
     {
       "rel": "related",
@@ -72,18 +75,34 @@
       "name": "Anca Anghelea",
       "emails": [
         {
-          "value": "anca.anghelea@esa.int"
+          "value": "anca.anghelea@esa.int",
+          "roles": []
         }
       ],
       "roles": [
         "technical_officer"
-      ]
+      ],
+      "identifier": "",
+      "positionName": "",
+      "organization": "",
+      "phones": [],
+      "addresses": [],
+      "links": [],
+      "contactInstructions": []
     },
     {
       "name": "UNIVERSITY OF BRISTOL (GB)",
       "roles": [
         "consortium_member"
-      ]
+      ],
+      "identifier": "",
+      "positionName": "",
+      "organization": "",
+      "phones": [],
+      "emails": [],
+      "addresses": [],
+      "links": [],
+      "contactInstructions": []
     }
   ],
   "updated": "2024-09-12T20:32:23.034110Z",
@@ -109,5 +128,9 @@
     }
   },
   "license": "OGL-UK-3.0",
-  "keywords": []
+  "keywords": [],
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "osc:workflows": []
 }

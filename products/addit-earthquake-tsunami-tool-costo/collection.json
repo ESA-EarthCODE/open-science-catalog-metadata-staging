@@ -2,7 +2,7 @@
   "type": "Collection",
   "id": "addit-earthquake-tsunami-tool-costo",
   "stac_version": "1.0.0",
-  "description": "Detection and characterization of Traveling Ionospheric Disturbances (TIDs) from Global Navigation Satellite System (GNSS) measurements using the Atomic Decomposition Detector of Traveling Ionospheric Disturbances (ADDTID) algorithm",
+  "description": "Detection and characterization of Traveling Ionospheric Disturbances (TIDs) from Global Navigation Satellite System (GNSS) measurements using the Atomic Decomposition Detector of Traveling Ionospheric Disturbances (ADDTID) algorithm\nTest",
   "links": [
     {
       "rel": "root",
@@ -13,12 +13,14 @@
     {
       "rel": "via",
       "href": "https://www.mdpi.com/2072-4292/11/16/1894/htm#app1-remotesensing-11-01894",
-      "title": "Access"
+      "title": "Access",
+      "type": "application/json"
     },
     {
       "rel": "cite-as",
       "href": "https://doi.org/10.3390/rs11161894",
-      "title": "DOI"
+      "title": "DOI",
+      "type": ""
     },
     {
       "rel": "parent",
@@ -53,7 +55,8 @@
     {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/addit-earthquake-tsunami-tool-costo/collection.json",
-      "type": "application/json"
+      "type": "application/json",
+      "title": ""
     }
   ],
   "stac_extensions": [
@@ -70,7 +73,8 @@
   "sci:doi": "10.3390/rs11161894",
   "cf:parameter": [
     {
-      "name": "earthquake_tsunami_tool"
+      "name": "earthquake_tsunami_tool",
+      "unit": ""
     }
   ],
   "themes": [
@@ -115,5 +119,9 @@
   "keywords": [
     "Sun-Earth Interactions",
     "Ionosphere/Magnetosphere Dynamics"
-  ]
+  ],
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "osc:experiment": ""
 }

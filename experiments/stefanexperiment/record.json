@@ -1,6 +1,13 @@
 {
   "id": "stefanexperiment",
   "properties": {
-    "title": "stefan_experiment"
-  }
+    "title": "stefan_experiment",
+    "osc:workflow": "polaris"
+  },
+  "type": "Feature",
+  "time": null,
+  "geometry": null,
+  "conformsTo": [],
+  "links": [],
+  "linkTemplates": []
 }

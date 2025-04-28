@@ -96,6 +96,7 @@
       "file:local_path": "Permafrost/Create-CCI-Permafrost-cube-EarthCODE.ipynb",
       "type": "application/x-ipynb+json",
       "application:type": "jupyter-notebook",
+      "application:sub_type": "jupyter-notebook-conda-store",
       "application:container": true,
       "application:language": "Python",
       "jupyter:kernel": {
@@ -109,7 +110,7 @@
       "title": "DeepESDL platform",
       "href": "https://deep.earthsystemdatalab.net/",
       "type": "text/html",
-      "application:platform_supports": ["jupyter-notebook"],
+      "application:platform_supports": ["jupyter-notebook", "jupyter-notebook-conda-store"],
       "application:preferred_app": "JupyterLab"
     },
     {

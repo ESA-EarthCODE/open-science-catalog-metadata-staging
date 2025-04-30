@@ -1,6 +1,13 @@
 {
   "id": "test-workflow",
   "properties": {
-    "title": "Test Workflow"
-  }
+    "title": "Test Workflow",
+    "osc:project": ""
+  },
+  "type": "Feature",
+  "time": null,
+  "geometry": null,
+  "conformsTo": [],
+  "links": [],
+  "linkTemplates": []
 }

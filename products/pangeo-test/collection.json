@@ -101,5 +101,10 @@
       ]
     }
   },
-  "license": "other"
+  "license": "proprietary",
+  "keywords": [],
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "osc:experiment": ""
 }

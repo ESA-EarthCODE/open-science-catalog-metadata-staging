@@ -1,6 +1,13 @@
 {
   "id": "dnbr-pangeo-test",
   "properties": {
-    "title": "dnbr Pangeo Test"
-  }
+    "title": "dnbr Pangeo Test",
+    "osc:project": "dnbr-test"
+  },
+  "type": "Feature",
+  "time": null,
+  "geometry": null,
+  "conformsTo": [],
+  "links": [],
+  "linkTemplates": []
 }

@@ -1,4 +1,49 @@
 {
   "id": "dnbr-test",
-  "title": "DNBR Test"
+  "title": "DNBR Test",
+  "stac_version": "1.0.0",
+  "stac_extensions": [],
+  "type": "Collection",
+  "description": "DNBR TestDNBR TestDNBR TestDNBR TestDNBR TestDNBR Test",
+  "keywords": [],
+  "license": "proprietary",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "links": [],
+  "updated": "2025-01-29T18:00:00.000000Z",
+  "osc:type": "project",
+  "osc:status": "planned",
+  "osc:workflows": [],
+  "themes": [],
+  "contacts": [
+    {
+      "identifier": "",
+      "name": "",
+      "positionName": "",
+      "organization": "",
+      "logo": {
+        "href": "",
+        "title": "",
+        "type": "image/gif",
+        "rel": "icon"
+      },
+      "phones": [],
+      "emails": [],
+      "addresses": [],
+      "links": [],
+      "contactInstructions": "",
+      "roles": []
+    }
+  ]
 }

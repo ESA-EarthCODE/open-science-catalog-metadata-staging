@@ -51,32 +51,37 @@
     }
   },
   "license": "CC-BY-4.0",
-  "summaries": {
-    "references": [
-      "https://doi.org/10.5194/egusphere-2024-1323"
-    ],
-    "institution": [
-      "CNES"
-    ],
-    "platform_name": [
-      "SENTINEL-3"
-    ],
-    "processor_name": [
-      "Altimeter data Modelling and Processing for Land Ice (AMPLI)"
-    ],
-    "operational_mode": [
-      "Earth Observation"
-    ],
-    "processing_level": [
-      "2"
-    ],
-    "processor_version": [
-      "v1.0"
-    ],
-    "altimeter_sensor_name": [
-      "SRAL"
-    ]
-  },
+  "summaries": [
+    {
+      "references": [
+        "https://doi.org/10.5194/egusphere-2024-1323"
+      ],
+      "institution": [
+        "CNES"
+      ],
+      "platform_name": [
+        "SENTINEL-3"
+      ],
+      "processor_name": [
+        "Altimeter data Modelling and Processing for Land Ice (AMPLI)"
+      ],
+      "operational_mode": [
+        "Earth Observation"
+      ],
+      "processing_level": [
+        "2"
+      ],
+      "processor_version": [
+        "v1.0"
+      ],
+      "altimeter_sensor_name": [
+        "SRAL"
+      ]
+    }
+  ],
   "description": "Ice sheet elevation estimated along the Sentinel-3 satellite track, as retrieved with the Altimeter data Modelling and Processing for Land Ice (AMPLI). The products cover Antarctica and Greenland.",
-  "stac_version": "1.1.0"
+  "stac_version": "1.1.0",
+  "osc:type": "product",
+  "osc:status": "ongoing",
+  "osc:project": ""
 }

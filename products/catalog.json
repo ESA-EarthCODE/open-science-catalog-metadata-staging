@@ -1820,8 +1820,15 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
+    },
+    {
+      "href": "./sentinel3-ampli-ice-sheet-elevation/collection.json",
+      "title": "Sentinel3 AMPLI Ice Sheet Elevation",
+      "type": "application/json",
+      "rel": "child"
     }
   ],
-  "updated": "2024-09-12T20:32:22.975110Z",
-  "title": "Products"
+  "updated": "2025-05-06T20:32:22.975110Z",
+  "title": "Products",
+  "stac_extensions": []
 }

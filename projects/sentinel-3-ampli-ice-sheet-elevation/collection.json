@@ -2,5 +2,37 @@
   "id": "sentinel-3-ampli-ice-sheet-elevation",
   "title": "Sentinel-3 AMPLI Ice Sheet Elevation",
   "type": "Collection",
-  "osc:type": "project"
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Cryosphere"
+    }
+  ],
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "OSC:SCHEME:THEMES",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ]
 }

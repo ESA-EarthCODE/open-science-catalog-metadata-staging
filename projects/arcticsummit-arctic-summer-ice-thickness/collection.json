@@ -86,7 +86,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:32:23.034110Z",
+  "updated": "2025-05-06T15:05:10Z",
   "title": "(LPF) ArcticSummIT",
   "extent": {
     "spatial": {
@@ -109,5 +109,9 @@
     }
   },
   "license": "OGL-UK-3.0",
-  "keywords": []
+  "keywords": [],
+  "providers": [],
+  "summaries": [],
+  "assets": {},
+  "osc:workflows": []
 }

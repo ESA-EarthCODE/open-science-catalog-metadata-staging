@@ -1823,7 +1823,7 @@
     },
     {
       "href": "./sentinel3-ampli-ice-sheet-elevation/collection.json",
-      "title": "Sentinel3 AMPLI Ice Sheet Elevation",
+      "title": "Sentinel-3 AMPLI Ice Sheet Elevation",
       "type": "application/json",
       "rel": "child"
     }

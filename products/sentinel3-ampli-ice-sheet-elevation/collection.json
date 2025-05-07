@@ -29,6 +29,22 @@
       "type": "application/schema+json",
       "title": "Queryables",
       "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation/queryables"
+    },
+    {
+      "href": "../../projects/4d-antarctica/collection.json",
+      "title": "Project: 4D-ANTARCTICA",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../themes/cryosphere/catalog.json",
+      "title": "Theme: Cryosphere",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "https://eoresults.esa.int/",
+      "rel": "via"
     }
   ],
   "title": "Sentinel-3 AMPLI Ice Sheet Elevation",
@@ -84,5 +100,18 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "4d-antarctica",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
   ]
 }

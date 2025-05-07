@@ -1,0 +1,82 @@
+{
+  "id": "sentinel3-ampli-ice-sheet-elevation",
+  "type": "Collection",
+  "links": [
+    {
+      "rel": "items",
+      "type": "application/geo+json",
+      "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation/items"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "https://eoresults.esa.int/stac/"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "https://eoresults.esa.int/stac/"
+    },
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+      "type": "application/schema+json",
+      "title": "Queryables",
+      "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation/queryables"
+    }
+  ],
+  "title": "Sentinel-3 AMPLI Ice Sheet Elevation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-06-01T00:00:00Z",
+          "2024-05-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "summaries": {
+    "references": [
+      "https://doi.org/10.5194/egusphere-2024-1323"
+    ],
+    "institution": [
+      "CNES"
+    ],
+    "platform_name": [
+      "SENTINEL-3"
+    ],
+    "processor_name": [
+      "Altimeter data Modelling and Processing for Land Ice (AMPLI)"
+    ],
+    "operational_mode": [
+      "Earth Observation"
+    ],
+    "processing_level": [
+      "2"
+    ],
+    "processor_version": [
+      "v1.0"
+    ],
+    "altimeter_sensor_name": [
+      "SRAL"
+    ]
+  },
+  "description": "Ice sheet elevation estimated along the Sentinel-3 satellite track, as retrieved with the Altimeter data Modelling and Processing for Land Ice (AMPLI). The products cover Antarctica and Greenland.",
+  "stac_version": "1.1.0"
+}

@@ -1,0 +1,118 @@
+{
+  "id": "sentinel3-ampli-ice-sheet-elevation",
+  "type": "Collection",
+  "links": [
+    {
+      "rel": "items",
+      "type": "application/geo+json",
+      "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation/items"
+    },
+    {
+      "rel": "parent",
+      "type": "application/json",
+      "href": "../catalog.json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "type": "application/json",
+      "href": "../../catalog.json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "self",
+      "type": "application/json",
+      "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation"
+    },
+    {
+      "rel": "http://www.opengis.net/def/rel/ogc/1.0/queryables",
+      "type": "application/schema+json",
+      "title": "Queryables",
+      "href": "https://eoresults.esa.int/stac/collections/sentinel3-ampli-ice-sheet-elevation/queryables"
+    },
+    {
+      "rel": "via",
+      "href": "https://<access-link>",
+      "title": "Access"
+    },
+    {
+      "href": "../../projects/4d-antarctica/collection.json",
+      "title": "Project: 4D-ANTARCTICA",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../themes/cryosphere/catalog.json",
+      "title": "Theme: Cryosphere",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "title": "Sentinel-3 AMPLI Ice Sheet Elevation",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-06-01T00:00:00Z",
+          "2024-05-09T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "summaries": {
+    "references": [
+      "https://doi.org/10.5194/egusphere-2024-1323"
+    ],
+    "institution": [
+      "CNES"
+    ],
+    "platform_name": [
+      "SENTINEL-3"
+    ],
+    "processor_name": [
+      "Altimeter data Modelling and Processing for Land Ice (AMPLI)"
+    ],
+    "operational_mode": [
+      "Earth Observation"
+    ],
+    "processing_level": [
+      "2"
+    ],
+    "processor_version": [
+      "v1.0"
+    ],
+    "altimeter_sensor_name": [
+      "SRAL"
+    ]
+  },
+  "description": "Ice sheet elevation estimated along the Sentinel-3 satellite track, as retrieved with the Altimeter data Modelling and Processing for Land Ice (AMPLI). The products cover Antarctica and Greenland.",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:type": "product",
+  "osc:status": "planned",
+  "osc:project": "4d-antarctica",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ]
+}

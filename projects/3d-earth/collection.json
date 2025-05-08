@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/test-product/collection.json",
+      "type": "application/json",
+      "title": "Test Product"
     }
   ],
   "stac_extensions": [

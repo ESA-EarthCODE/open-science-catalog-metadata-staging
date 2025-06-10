@@ -61,7 +61,7 @@
         "rel": "related",
         "href": "../../eo-missions/sentinel-6/catalog.json",
         "type": "application/json",
-        "title": "EO Mission: Sentinel-6"
+        "title": "EO Mission: Sentinel-6A"
       },
       {
         "rel": "related",
@@ -73,13 +73,13 @@
         "rel": "related",
         "href": "../../eo-missions/sentinel-3/catalog.json",
         "type": "application/json",
-        "title": "EO Mission: Sentinel-3"
+        "title": "EO Mission: Senitnel-3"
       },
       {
         "rel": "related",
         "href": "../../eo-missions/cryosat-2/catalog.json",
         "type": "application/json",
-        "title": "EO Mission: CryoSat-2"
+        "title": "EO Mission: Cryosat-2"
       },
       {
         "rel": "self",
@@ -93,7 +93,7 @@
       "https://stac-extensions.github.io/cf/v0.2.0/schema.json"
     ],
     "osc:project": "4dmed-sea",
-    "osc:status": "completed",
+    "osc:status": "done",
     "osc:region": "Mediterranean",
     "osc:type": "product",
     "created": "2024-11-26T00:00:00Z",
@@ -146,7 +146,7 @@
         ]
       }
     },
-    "license": "CC-BY-4.0",
+    "license": "proprietary",
     "keywords": [
       "Sea Surface Height",
       "Sea Level Anomaly",

@@ -1,0 +1,111 @@
+{
+  "id": "dnbr_workflow_example",
+  "title": "DNBR Workflow Example",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-06-10T08:30:46.767551+00:00",
+    "updated": "2025-06-10T08:30:46.767551+00:00",
+    "type": "experiment",
+    "title": "DNBR Workflow Example",
+    "description": "Demonstrate how to fetch satellite Sentinel-2 data to generate burn severity maps for the assessment of the areas affected by wildfires.",
+    "jupyter_kernel_info": {
+      "name": "Pange-Test-Notebook",
+      "python_version": 3.11,
+      "env_file": "https://github.com/pangeo-data/pangeo-docker-images/blob/master/pangeo-notebook/environment.yml"
+    },
+    "keywords": [
+      "Earth Science"
+    ],
+    "contacts": [
+      {
+        "name": "Dean Summers",
+        "organization": "Lampata",
+        "position": "",
+        "links": [
+          {
+            "rel": "about",
+            "type": "text/html",
+            "href": "https://www.lampata.eu/"
+          }
+        ],
+        "contactInstructions": "",
+        "roles": [
+          "principal investigator"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "proprietary",
+    "osc:workflow": "dnbr_workflow_example"
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/dnbr_workflow_example/record.json",
+      "type": "application/json",
+      "title": "Workflow: DNBR Workflow Example"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/pangeo-test/collection.json",
+      "type": "application/json",
+      "title": "pangeo-test"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/dnbr_workflow_example/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}

@@ -3,5 +3,22 @@
   "title": "demo-product",
   "created": "2025-06-18T12:34:57Z",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "awesome description",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [],
+  "osc:status": "planned",
+  "osc:project": "",
+  "themes": []
 }

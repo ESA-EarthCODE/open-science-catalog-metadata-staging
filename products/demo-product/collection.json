@@ -9,16 +9,48 @@
   "license": "various",
   "extent": {
     "spatial": {
-      "bbox": []
+      "bbox": [
+        [
+          -15.401394771277221,
+          35.91309308228537,
+          27.889006267808483,
+          54.57973600090236
+        ]
+      ]
     },
     "temporal": {
       "interval": [
-        null
+        [
+          "2025-06-01T00:00:00Z",
+          "2025-06-30T23:59:59Z"
+        ]
       ]
     }
   },
-  "links": [],
+  "links": [
+    {
+      "href": "../../themes/land/catalog.json",
+      "title": "Theme: Land",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../projects/4d-antarctica/collection.json",
+      "title": "Project: 4D-ANTARCTICA",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
   "osc:status": "planned",
-  "osc:project": "",
-  "themes": []
+  "osc:project": "4d-antarctica",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
 }

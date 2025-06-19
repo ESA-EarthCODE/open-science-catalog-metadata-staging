@@ -5,7 +5,7 @@
   "type": "Collection",
   "osc:type": "product",
   "stac_version": "1.0.0",
-  "description": "**test---product**",
+  "description": "**test---product**\n\n- b",
   "license": "various",
   "extent": {
     "spatial": {
@@ -13,12 +13,24 @@
     },
     "temporal": {
       "interval": [
-        null
+        [
+          null,
+          ""
+        ]
       ]
     }
   },
   "links": [],
   "osc:status": "planned",
   "osc:project": "",
-  "themes": []
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ]
 }

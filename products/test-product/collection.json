@@ -5,7 +5,7 @@
   "type": "Collection",
   "osc:type": "product",
   "stac_version": "1.0.0",
-  "description": "**test---product**\n\n- b",
+  "description": "**test---product**\n\n- a\n\n- b",
   "license": "various",
   "extent": {
     "spatial": {

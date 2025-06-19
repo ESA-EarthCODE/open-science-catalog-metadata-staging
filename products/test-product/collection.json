@@ -1,0 +1,36 @@
+{
+  "id": "test-product",
+  "title": "test---product",
+  "created": "2025-06-18T19:50:35Z",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "**test---product**\n\n- a\n\n- b",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          ""
+        ]
+      ]
+    }
+  },
+  "links": [],
+  "osc:status": "planned",
+  "osc:project": "",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "atmosphere"
+        }
+      ]
+    }
+  ]
+}

@@ -2,5 +2,51 @@
   "id": "test",
   "title": "test",
   "type": "Collection",
-  "osc:type": "project"
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "",
+  "keywords": [
+    "test"
+  ],
+  "license": "CC-BY-SA-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -15.71624361405896,
+          33.93499169917598,
+          31.47372166021924,
+          57.47808162615925
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-06-01T00:00:00Z",
+          "2025-06-30T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/land/catalog.json",
+      "title": "Theme: Land",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "updated": "2025-06-21T22:12:38Z",
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
 }

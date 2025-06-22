@@ -1,0 +1,45 @@
+{
+  "id": "lps25",
+  "title": "LPS25",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "Desscrioitiun",
+  "license": "CC-BY-SA-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -17.50623511142406,
+          37.74032232319577,
+          41.14712541798364,
+          55.91837865929003
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "osc:status": "ongoing",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ]
+}

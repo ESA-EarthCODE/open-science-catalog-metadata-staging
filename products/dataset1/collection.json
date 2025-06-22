@@ -3,5 +3,77 @@
   "title": "dataset1",
   "created": "2025-06-22T13:26:28Z",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas hasbfhla asdasd adsas ",
+  "keywords": [
+    "asd",
+    "asdasd",
+    "asddsadasf"
+  ],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -136.89516746520937,
+          21.671101678519605,
+          -59.26662273499538,
+          52.290621846352025
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2025-06-22T00:00:00Z",
+          "2025-07-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../variables/14-ch4-delta/catalog.json",
+      "title": "Variable: (14)CH4 Delta",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "title": "Eo-mission: Sentinel-3",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../projects/aeolus-innovation-expro-ocean-sub-surface-products-and-applications/collection.json",
+      "title": "Project: AEOLUS+inno - AOC",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ],
+  "osc:status": "planned",
+  "osc:project": "aeolus-innovation-expro-ocean-sub-surface-products-and-applications",
+  "osc:variables": [
+    "14-ch4-delta"
+  ],
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
 }

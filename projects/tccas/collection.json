@@ -1,0 +1,63 @@
+{
+  "id": "tccas",
+  "title": "TCCAS",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "he Terrestrial Carbon Community Assimilation System (TCCAS) is built around the coupled D&B terrestrial biosphere model. D&B has been newly developed based on the well-established DALEC and BETHY models and builds on the strengths of each component model. In particular, D&B combines the dynamic simulation of the carbon pools and canopy phenology of DALEC with the dynamic simulation of water pools, and the canopy model of photosynthesis and energy balance of BETHY. D&B includes a set of observation operators for optical as well as active and passive microwave observations. The focus of TCCAS is the combination of this diverse array of observational data streams with the D&B model into a consistent picture of the terrestrial carbon, water, and energy cycles. TCCAS applies a variational assimilation approach that adjusts a combination of initial pool sizes and process parameters to match the observational data streams.",
+  "keywords": [
+    "carbon",
+    "simulation"
+  ],
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -28.051948051948063,
+          33.938250346907665,
+          48.31168831168829,
+          67.8280351755229
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2020-10-01T00:00:00Z",
+          "2025-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../themes/land/catalog.json",
+      "title": "Theme: Land",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "osc:status": "planned",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "name": "Matthias Drusch",
+      "emails": [
+        {
+          "value": "Matthias.Drusch@ESA.int"
+        }
+      ],
+      "roles": []
+    }
+  ]
+}

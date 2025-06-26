@@ -1,0 +1,70 @@
+{
+  "id": "yipeeo",
+  "title": "YIPEEO",
+  "created": "2025-06-26T10:37:49Z",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2016-01-01T00:00:00Z",
+          "2022-12-31T23:59:59Z"
+        ]
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "https://yipeeo.czechglobe.cz/documents/deliverables/D4.2_ExperimentalDatasetDescription.pdf",
+      "title": "Documentation",
+      "type": "text/html",
+      "rel": "via"
+    },
+    {
+      "href": "https://objectstore.eodc.eu:2222/68e13833a1624f43ba2cac01376a18af:ASP_ZARR/S1_out.zarr",
+      "title": "Access",
+      "type": "application/json",
+      "rel": "via"
+    },
+    {
+      "href": "../../variables/14-co-number-concentration/catalog.json",
+      "title": "Variable: (14)CO Number Concentration",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../variables/aphotic-photic-zone/catalog.json",
+      "title": "Variable: Aphotic/Photic Zone",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../variables/crop-yield-estimation/catalog.json",
+      "title": "Variable: Crop Yield Estimation",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/sentinel-1/catalog.json",
+      "title": "Eo-mission: Sentinel-1",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "osc:status": "planned",
+  "osc:project": "",
+  "osc:variables": [
+    "crop-yield-estimation"
+  ],
+  "osc:missions": [
+    "sentinel-1"
+  ],
+  "themes": []
+}

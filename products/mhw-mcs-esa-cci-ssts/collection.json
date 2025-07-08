@@ -1,7 +1,79 @@
 {
   "id": "mhw-mcs-esa-cci-ssts",
-  "title": "mhw-mcs--ESA-CCI-SSTs",
+  "title": "Marine heatwaves and cold spells events based on ESA-CCI SSTs",
   "created": "2025-07-08T07:48:22Z",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "This repository contains catalogues of marine heatwaves (MHWs) and cold spells (MCSs) prepared by the National Research Council - Institute of Marine Sciences (CNR-ISMAR, Italy) within the ESA-funded CAREHeat project. The catalogues are based on the ESA-CCI sea surface temperature (SST) dataset (available from https://doi.org/10.24381/cds.cf608234) for the period 1982-2022, on a regular 1°x1° longitude-latitude grid. \n\nEvents are identified for each pixel following the methodology of Hobday et al. (2016) with different preprocessing steps. Event categories are provided as daily maps and metrics are given by event. Results are provided both for the 'raw' and detrended SSTs, which can be used to assess the impacts of long-term trends on marine extremes.\n",
+  "license": "CC-BY-4.0",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        [
+          "1982-01-01T00:00:00Z",
+          "2022-12-31T23:59:59Z"
+        ]
+      ]
+    },
+    "bbox": [
+      [
+        "-180.0, -90.0, 180.0, 90"
+      ]
+    ]
+  },
+  "links": [
+    {
+      "href": "../../projects/detection-and-threats-of-marine-heat-waves-careheat/collection.json",
+      "title": "Project: CareHEAT",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "title": "Theme: Oceans",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../variables/heat/catalog.json",
+      "title": "Variable: Heat",
+      "type": "application/json",
+      "rel": "related"
+    },
+    {
+      "href": "../../eo-missions/sentinel-3/catalog.json",
+      "title": "Eo-mission: Sentinel-3",
+      "type": "application/json",
+      "rel": "related"
+    }
+  ],
+  "osc:status": "completed",
+  "osc:project": "detection-and-threats-of-marine-heat-waves-careheat",
+  "osc:region": "Global",
+  "osc:variables": [
+    "absorption",
+    "heat"
+  ],
+  "osc:missions": [
+    "sentinel-3"
+  ],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "cf:parameter": [
+    {
+      "name": "marine_heat"
+    }
+  ]
 }

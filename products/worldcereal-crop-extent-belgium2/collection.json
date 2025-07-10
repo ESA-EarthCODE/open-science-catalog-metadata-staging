@@ -20,7 +20,7 @@
       "rel": "related",
       "href": "../../projects/worldcereal2/collection.json",
       "type": "application/json",
-      "title": "Title: WorldCereal2"
+      "title": "Project: WorldCereal2"
     },
     {
       "rel": "related",
@@ -65,8 +65,8 @@
   "osc:status": "ongoing",
   "osc:region": "Belgium",
   "osc:type": "product",
-  "created": "2025-07-10T18:01:29Z",
-  "updated": "2025-07-10T18:01:29Z",
+  "created": "2025-07-10T18:05:39Z",
+  "updated": "2025-07-10T18:05:39Z",
   "sci:doi": "https://doi.org/10.57780/s3d-83ad619",
   "cf:parameter": [
     {

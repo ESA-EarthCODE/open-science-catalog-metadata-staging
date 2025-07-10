@@ -102,26 +102,7 @@
     }
   ],
   "title": "ESA worldcereal global crop extent detector2",
-  "extent": {
-    "spatial": {
-      "bbox": [
-        [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
-        ]
-      ]
-    },
-    "temporal": {
-      "interval": [
-        [
-          "2022-02-01T00:00:00Z",
-          "2026-01-31T23:59:59Z"
-        ]
-      ]
-    }
-  },
+  "geometry": null,
   "license": "proprietary",
   "keywords": [
     "agriculture",

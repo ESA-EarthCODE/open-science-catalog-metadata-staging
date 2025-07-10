@@ -41,7 +41,7 @@
   ],
   "osc:status": "completed",
   "osc:type": "project",
-  "updated": "2025-07-10T15:42:13Z",
+  "updated": "2025-07-10T16:11:04Z",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -68,122 +68,6 @@
       "name": "VITO Remote Sensing",
       "roles": [
         "consortium_member"
-      ],
-      "emails": [
-        {
-          "value": "h"
-        },
-        {
-          "value": "t"
-        },
-        {
-          "value": "t"
-        },
-        {
-          "value": "p"
-        },
-        {
-          "value": "s"
-        },
-        {
-          "value": ":"
-        },
-        {
-          "value": "/"
-        },
-        {
-          "value": "/"
-        },
-        {
-          "value": "e"
-        },
-        {
-          "value": "s"
-        },
-        {
-          "value": "a"
-        },
-        {
-          "value": "-"
-        },
-        {
-          "value": "w"
-        },
-        {
-          "value": "o"
-        },
-        {
-          "value": "r"
-        },
-        {
-          "value": "l"
-        },
-        {
-          "value": "d"
-        },
-        {
-          "value": "c"
-        },
-        {
-          "value": "e"
-        },
-        {
-          "value": "r"
-        },
-        {
-          "value": "e"
-        },
-        {
-          "value": "a"
-        },
-        {
-          "value": "l"
-        },
-        {
-          "value": "."
-        },
-        {
-          "value": "o"
-        },
-        {
-          "value": "r"
-        },
-        {
-          "value": "g"
-        },
-        {
-          "value": "/"
-        },
-        {
-          "value": "e"
-        },
-        {
-          "value": "n"
-        },
-        {
-          "value": "/"
-        },
-        {
-          "value": "c"
-        },
-        {
-          "value": "o"
-        },
-        {
-          "value": "n"
-        },
-        {
-          "value": "t"
-        },
-        {
-          "value": "a"
-        },
-        {
-          "value": "c"
-        },
-        {
-          "value": "t"
-        }
       ]
     }
   ],

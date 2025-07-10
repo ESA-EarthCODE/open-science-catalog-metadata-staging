@@ -20,7 +20,7 @@
       "rel": "related",
       "href": "../../projects/worldcereal2/collection.json",
       "type": "application/json",
-      "title": "WorldCereal2"
+      "title": "Title: WorldCereal2"
     },
     {
       "rel": "related",
@@ -65,8 +65,8 @@
   "osc:status": "ongoing",
   "osc:region": "Belgium",
   "osc:type": "product",
-  "created": "2025-07-10T17:44:15Z",
-  "updated": "2025-07-10T17:44:15Z",
+  "created": "2025-07-10T18:01:29Z",
+  "updated": "2025-07-10T18:01:29Z",
   "sci:doi": "https://doi.org/10.57780/s3d-83ad619",
   "cf:parameter": [
     {
@@ -89,7 +89,7 @@
   "osc:variables": [
     "crop-yield-forecast"
   ],
-  "title": "WorldCereal Crop Extent - Belgium",
+  "title": "WorldCereal Crop Extent - Belgium2",
   "extent": {
     "spatial": {
       "bbox": [

@@ -6,12 +6,6 @@
   "links": [
     {
       "rel": "root",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/worldcereal2/collection.json",
-      "type": "application/json",
-      "title": "WorldCereal"
-    },
-    {
-      "rel": "root",
       "href": "../../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
@@ -23,9 +17,14 @@
       "title": "Projects"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/worldcereal2/collection.json",
-      "type": "application/json"
+      "rel": "via",
+      "href": "https://esa-worldcereal.org/en",
+      "title": "Website"
+    },
+    {
+      "rel": "via",
+      "href": "https://eo4society.esa.int/projects/worldcereal-global-crop-monitoring-at-field-scale/",
+      "title": "EO4Society Link"
     },
     {
       "rel": "related",
@@ -41,7 +40,7 @@
   ],
   "osc:status": "completed",
   "osc:type": "project",
-  "updated": "2025-07-10T16:11:04Z",
+  "updated": "2025-07-10T16:34:00Z",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",
@@ -71,7 +70,7 @@
       ]
     }
   ],
-  "title": "WorldCereal",
+  "title": "WorldCereal2",
   "extent": {
     "spatial": {
       "bbox": [

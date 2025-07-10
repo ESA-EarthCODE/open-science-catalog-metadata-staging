@@ -1090,7 +1090,7 @@
       "type": "application/json",
       "title": "WorldCereal"
     },
-        {
+    {
       "rel": "child",
       "href": "./worldcereal2/collection.json",
       "type": "application/json",

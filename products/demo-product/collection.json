@@ -3,5 +3,57 @@
   "title": "demo-product",
   "created": "2025-07-23T08:42:54Z",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "something",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -10.456425505945205,
+          36.450259264734186,
+          34.730289356966466,
+          56.844038304243696
+        ],
+        [
+          22.406638294817046,
+          28.593463405608688,
+          71.32780427013715,
+          44.65714442370992
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/4dionosphere-swarm-vip/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: SWARM VIP"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "osc:status": "planned",
+  "osc:project": "4dionosphere-swarm-vip",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ]
 }

@@ -1,0 +1,9 @@
+{
+  "id": "test-title",
+  "type": "Feature",
+  "geometry": null,
+  "properties": {
+    "title": "Test Title",
+    "created": "2025-05-12T13:07:24Z"
+  }
+}

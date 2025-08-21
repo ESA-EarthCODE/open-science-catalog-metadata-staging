@@ -1,0 +1,8 @@
+{
+  "id": "example-product",
+  "title": "Example Product",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ]
+}

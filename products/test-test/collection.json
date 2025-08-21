@@ -1,0 +1,66 @@
+{
+  "id": "test-test",
+  "title": "Test Test",
+  "created": "2025-07-21T14:33:29Z",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "Test",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -111.55156950672647,
+          -1.2913704725382473,
+          -81.847533632287,
+          19.92652047447953
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "rel": "related",
+      "href": "../../themes/atmosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Atmosphere"
+    },
+    {
+      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Experiment: ESA CCI permafrost"
+    },
+    {
+      "href": "../../projects/ai-enhanced-uncertainty-quantification-of-satellite-derived-hydroclimatic-extremes-extraim/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: extrAIM"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/cryosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Cryosphere"
+    }
+  ],
+  "osc:status": "planned",
+  "osc:project": "ai-enhanced-uncertainty-quantification-of-satellite-derived-hydroclimatic-extremes-extraim",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ],
+  "osc:experiment": "esa-cci-permafrost"
+}

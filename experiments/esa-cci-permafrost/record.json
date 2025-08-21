@@ -106,6 +106,12 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/test-test/collection.json",
+      "type": "application/json",
+      "title": "Test Test"
     }
   ]
 }

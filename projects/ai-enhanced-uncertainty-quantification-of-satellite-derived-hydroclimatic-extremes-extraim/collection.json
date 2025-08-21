@@ -48,6 +48,12 @@
       "href": "../../themes/atmosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Atmosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/test-test/collection.json",
+      "type": "application/json",
+      "title": "Test Test"
     }
   ],
   "stac_extensions": [

@@ -61,6 +61,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/absolute-sea-level-heights-baltics-sar-hsu/collection.json",
       "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/esa-cci-permafrost/record.json",
+      "type": "application/json",
+      "title": "Experiment: ESA CCI permafrost"
     }
   ],
   "stac_extensions": [
@@ -96,7 +102,7 @@
     "sentinel-1",
     "glonass"
   ],
-  "updated": "2024-09-12T20:32:06.209108Z",
+  "updated": "2025-07-22T20:37:02Z",
   "title": "SL-ABS: Absolute Sea Level Heights_Baltics_Multimission",
   "extent": {
     "spatial": {
@@ -123,5 +129,6 @@
     "Sea Surface Topography",
     "Sea Surface Height",
     "Sea Surface Height Anomaly (SSHA)"
-  ]
+  ],
+  "osc:experiment": "esa-cci-permafrost"
 }

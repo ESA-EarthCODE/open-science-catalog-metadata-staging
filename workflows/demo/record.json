@@ -4,6 +4,7 @@
   "geometry": null,
   "properties": {
     "title": "demo",
-    "created": "2025-09-03T09:30:46Z"
+    "created": "2025-09-03T09:30:46Z",
+    "osc:project": "stratospheric-ozone-from-limb-observations-validation-of-the-profiles-evaluation-of-trends-and-their-dynamical-and-chemical-drivers-solve"
   }
 }

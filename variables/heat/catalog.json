@@ -32,6 +32,12 @@
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/mhw-mcs-esa-cci-ssts/collection.json",
+      "type": "application/json",
+      "title": "Marine heatwaves and cold spells events based on ESA-CCI SSTs"
     }
   ],
   "stac_extensions": [

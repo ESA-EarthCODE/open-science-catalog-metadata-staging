@@ -1826,6 +1826,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./clm-emo-q-rhine-0p0166deg-daily-exp10-20070101-20071231-nc/collection.json",
+      "type": "application/json",
+      "title": "CLM3.5 (exp10): 0.0166 degree discharge (EMO) for rhine (2007-01-01 - 2007-12-31)"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

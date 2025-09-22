@@ -52,12 +52,6 @@
       },
       {
         "rel": "related",
-        "href": "../../variables/total-suspended-matter/catalog.json",
-        "type": "application/json",
-        "title": "Variable: Total Suspended Matter (TSM)"
-      },
-      {
-        "rel": "related",
         "href": "../../variables/inorganic-matter/catalog.json",
         "type": "application/json",
         "title": "Variable: Inorganic Matter"
@@ -85,7 +79,7 @@
     "created": "2025-09-13T12:14:52Z",
     "cf:parameter": [
     {
-      "name": "mass_concentration_of_chlorophyll_a_in_sea_water"
+      "name": "water_quality_parameters"
     }
   ],
     "themes": [
@@ -101,8 +95,7 @@
     "osc:variables": [
       "inorganic-matter",
       "colored-dissolved-organic-matter",
-      "chlorophyll-concentration",
-      "total-suspended-matter"
+      "chlorophyll-concentration"
     ],
     "osc:missions": [
       "in-situ-observations"
@@ -112,12 +105,6 @@
     "extent": {
       "spatial": {
         "bbox": [
-        [
-          23.3,
-          57.98,
-          26.3,
-          59.72
-        ],
         [
           23.900000000000002,
           57.98000000000002,
@@ -137,12 +124,12 @@
           59.610000000000014
         ],
         [
-          25.9,
-          59.57,
-          25.98,
-          59.65
+          25.42,
+          59.440000000000026,
+          26.3,
+          59.72
         ]
-       ]
+      ]
       },
       "temporal": {
         "interval": [

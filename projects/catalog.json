@@ -1162,18 +1162,6 @@
       "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)"
     },
     {
-      "rel": "child",
-      "href": "./smart-ch4/collection.json",
-      "type": "application/json",
-      "title": "SMART-CH4"
-    },
-    {
-      "rel": "child",
-      "href": "./waposal/collection.json",
-      "type": "application/json",
-      "title": "WAPOSAL"
-    },
-    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

@@ -1157,27 +1157,9 @@
     },
     {
       "rel": "child",
-      "href": "./coastal-carbon-mapper/collection.json",
+      "href": "./coasta-carbon-mapper/collection.json",
       "type": "application/json",
       "title": "On the possibility of mapping carbon fractions in coastal waters using Sentinel-2 MSI and Sentinel-3 OLCI imagery (CoastalCarbonMapper)"
-    },
-    {
-      "rel": "child",
-      "href": "./smart-ch4/collection.json",
-      "type": "application/json",
-      "title": "SMART-CH4"
-    },
-    {
-      "rel": "child",
-      "href": "./waposal/collection.json",
-      "type": "application/json",
-      "title": "WAPOSAL"
-    },
-    {
-      "rel": "child",
-      "href": "./lakes4antarctica/collection.json",
-      "type": "application/json",
-      "title": "Lakes4Antarctica"
     },
     {
       "rel": "parent",

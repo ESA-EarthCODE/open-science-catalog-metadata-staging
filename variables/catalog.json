@@ -7170,9 +7170,9 @@
     },
     {
       "rel": "child",
-      "href": "./sea-surface-temperature/catalog.json",
+      "href": "./total-suspended-matter/catalog.json",
       "type": "application/json",
-      "title": "Sea Surface Temperature"
+      "title": "Total Suspended Matter (TSM)"
     },
     {
       "rel": "self",
@@ -7180,6 +7180,6 @@
       "type": "application/json"
     }
   ],
-  "updated": "2024-09-12T20:23:29.844131Z",
+  "updated": "2025-09-24T20:23:29.844131Z",
   "title": "Variables"
 }

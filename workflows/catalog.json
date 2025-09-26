@@ -36,9 +36,9 @@
     },
     {
       "rel": "item",
-      "href": "./demo-cmems-sst-workflow/record.json",
+      "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
-      "title": "Demo CMEMS SST"
+      "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"
     },
     {
       "rel": "self",

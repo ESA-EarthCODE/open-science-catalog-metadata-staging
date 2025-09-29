@@ -42,9 +42,9 @@
     },
     {
       "rel": "item",
-      "href": "./pca-on-ocean-data-cube/record.json",
+      "href": "./land-biosphere-society/record.json",
       "type": "application/json",
-      "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"
+      "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
     },
     {
       "rel": "self",

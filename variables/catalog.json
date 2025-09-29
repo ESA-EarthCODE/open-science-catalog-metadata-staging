@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "variables",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience, climate and environmental variables",
   "links": [
     {
@@ -7173,6 +7173,18 @@
       "href": "./sea-surface-temperature/catalog.json",
       "type": "application/json",
       "title": "Sea Surface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./burned-ha-mask/catalog.json",
+      "type": "application/json",
+      "title": "Burned Ha Mask"
+    },
+    {
+      "rel": "child",
+      "href": "./delta-nbr/catalog.json",
+      "type": "application/json",
+      "title": "Delta Nbr"
     },
     {
       "rel": "self",

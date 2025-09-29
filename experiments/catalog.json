@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "experiments",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience experiments",
   "links": [
     {
@@ -39,6 +39,12 @@
       "href": "./demo-cmems-sst-workflow/record.json",
       "type": "application/json",
       "title": "Demo CMEMS SST"
+    },
+    {
+      "rel": "item",
+      "href": "./dnbr_workflow_example/record.json",
+      "type": "application/json",
+      "title": "DNBR Workflow Example"
     },
     {
       "rel": "self",

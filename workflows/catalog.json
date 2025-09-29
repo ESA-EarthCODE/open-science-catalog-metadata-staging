@@ -1,7 +1,7 @@
 {
   "type": "Catalog",
   "id": "workflows",
-  "stac_version": "1.0.0",
+  "stac_version": "1.1.0",
   "description": "Geoscience workflows for experiments",
   "links": [
     {
@@ -45,6 +45,12 @@
       "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
       "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"
+    },
+    {
+      "rel": "item",
+      "href": "./dnbr_workflow_example/record.json",
+      "type": "application/json",
+      "title": "DNBR Workflow Example"
     },
     {
       "rel": "self",

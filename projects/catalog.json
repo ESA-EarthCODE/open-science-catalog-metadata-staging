@@ -1174,9 +1174,9 @@
     },
     {
       "rel": "child",
-      "href": "./fairsendd/collection.json",
+      "href": "./waposal/collection.json",
       "type": "application/json",
-      "title": "FAIRSenDD"
+      "title": "WAPOSAL"
     }
   ],
   "updated": "2025-09-22T20:32:23.037110Z",

@@ -4,8 +4,8 @@
   "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change",
   "geometry": null,
   "properties": {
-    "created": "2025-09-29T14:18:53.710446+00:00",
-    "updated": "2025-09-29T14:18:53.710446+00:00",
+    "created": "2025-09-30T12:35:23.112003+00:00",
+    "updated": "2025-09-30T12:35:23.112003+00:00",
     "type": "workflow",
     "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change",
     "description": "This workflow is a technological summary on the computations used for the scientific Use Case 1 of the DeepESDL project. The goal of the use case is to detect syndromes of change by analyzing both earth observation data from biosphere and atmosphere together with a list of indicators describing socioeconomic development of certain regions.",

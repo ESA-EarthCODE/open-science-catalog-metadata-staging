@@ -42,6 +42,12 @@
       "href": "../../themes/magnetosphere-ionosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Magnetosphere Ionosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/demo-product/collection.json",
+      "type": "application/json",
+      "title": "demo-product"
     }
   ],
   "stac_extensions": [

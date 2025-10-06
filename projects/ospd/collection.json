@@ -1,0 +1,38 @@
+{
+  "id": "ospd",
+  "title": "OSPD",
+  "osc:status": "completed",
+  "type": "Collection",
+  "osc:type": "project",
+  "stac_version": "1.0.0",
+  "description": "This is the Open Science Persistent Demonstrator project catalog. This project aims to make workflows and experiements easier to share and replicate across EO data platforms.",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -13.309850170563259,
+          35.49554898562438,
+          41.338603532687834,
+          58.93857472318399
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}

@@ -4,5 +4,26 @@
   "created": "2025-10-10T13:50:20Z",
   "osc:status": "completed",
   "type": "Collection",
-  "osc:type": "product"
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "Polarwarp product",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": []
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "./item.json",
+      "rel": "item"
+    }
+  ],
+  "osc:project": "",
+  "themes": []
 }

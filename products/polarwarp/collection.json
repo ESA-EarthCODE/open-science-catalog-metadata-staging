@@ -32,6 +32,10 @@
     {
       "href": "./item.json",
       "rel": "item"
+    },
+    {
+      "href": "../../projects/cerulean-information-factory/collection.json",
+      "rel": "related"
     }
   ],
   "osc:project": "cerulean-information-factory",

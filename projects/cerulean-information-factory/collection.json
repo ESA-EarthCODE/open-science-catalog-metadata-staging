@@ -49,6 +49,12 @@
       "rel": "related",
       "type": "application/json",
       "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/polarwarp/collection.json",
+      "type": "application/json",
+      "title": "Polarwarp"
     }
   ],
   "stac_extensions": [

@@ -6,15 +6,25 @@
   "type": "Collection",
   "osc:type": "product",
   "stac_version": "1.0.0",
-  "description": "Polarwarp product",
+  "description": "Polarwarp product\n\nForecast rasters (+1h … +6h) produced by the Polarwarp workflow using NEXTSIM model and S1 scenes. ",
   "license": "various",
   "extent": {
     "spatial": {
-      "bbox": []
+      "bbox": [
+        [
+          -193.24612700627185,
+          52.14664246190847,
+          149.97547427322075,
+          84.19769938546429
+        ]
+      ]
     },
     "temporal": {
       "interval": [
-        null
+        [
+          "2025-02-25T00:00:00Z",
+          null
+        ]
       ]
     }
   },
@@ -24,6 +34,15 @@
       "rel": "item"
     }
   ],
-  "osc:project": "",
-  "themes": []
+  "osc:project": "cerulean-information-factory",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "cryosphere"
+        }
+      ]
+    }
+  ]
 }

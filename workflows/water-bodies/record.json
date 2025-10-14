@@ -10,7 +10,9 @@
     "keywords": [
       "water",
       "NDWI",
-      "water bodies"
+      "water bodies",
+      "otsu",
+      "eoepca"
     ],
     "contacts": [
       {

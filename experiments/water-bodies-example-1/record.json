@@ -4,6 +4,10 @@
   "geometry": null,
   "properties": {
     "title": "Water-Bodies-Example-1",
-    "created": "2025-10-13T10:58:13Z"
-  }
+    "created": "2025-10-13T10:58:13Z",
+    "osc:workflow": "water-bodies",
+    "description": "An experiment using the water bodies workflow to demonstrate the workflow outputs looking at a region in California using Sentinel 2 L2A data.",
+    "externalIds": []
+  },
+  "links": []
 }

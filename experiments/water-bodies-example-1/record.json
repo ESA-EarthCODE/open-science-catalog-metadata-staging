@@ -17,6 +17,14 @@
     {
       "href": "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_10TFK_20220524_0_L2A",
       "title": "stac_item_2"
+    },
+    {
+      "href": "./environment.yaml",
+      "title": "environment"
+    },
+    {
+      "href": "./input.yaml",
+      "title": "input"
     }
   ]
 }

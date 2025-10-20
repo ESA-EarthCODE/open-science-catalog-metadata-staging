@@ -88,16 +88,16 @@
     "burned-area"
   ],
   "osc:missions": [],
-  "updated": "2025-01-30T20:32:22.960110Z",
+  "updated": "2025-10-20T07:44:28Z",
   "title": "SeasFire Cube: A Global Dataset for Seasonal Fire Modeling in the Earth System",
   "extent": {
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

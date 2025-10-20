@@ -50,6 +50,12 @@
       "href": "./polarwarp/record.json",
       "type": "application/json",
       "title": "Polarwarp"
+    },
+    {
+      "rel": "item",
+      "href": "./test/record.json",
+      "type": "application/json",
+      "title": "test"
     }
   ],
   "updated": "2025-01-29T18:00:00.000000Z",

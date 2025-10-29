@@ -42,21 +42,9 @@
     },
     {
       "rel": "item",
-      "href": "./demo-cmems-sst-workflow/record.json",
-      "type": "application/json",
-      "title": "Demo CMEMS SST"
-    },
-    {
-      "rel": "item",
       "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
-      "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"
-    },
-    {
-      "rel": "item",
-      "href": "./land-biosphere-society/record.json",
-      "type": "application/json",
-      "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
+      "title": "Ocean Data Cube for Principal Component Analysis on Time Variability"
     },
     {
       "rel": "self",

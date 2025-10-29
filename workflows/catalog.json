@@ -53,39 +53,9 @@
     },
     {
       "rel": "item",
-      "href": "./land-biosphere-society/record.json",
-      "type": "application/json",
-      "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
-    },
-    {
-      "rel": "item",
       "href": "./pca-on-ocean-data-cube/record.json",
       "type": "application/json",
-      "title": "DeepESDL Science Case: Ocean Data Cube for Principal Component Analysis on Time Variability"
-    },
-    {
-      "rel": "item",
-      "href": "./glambie-workflow-v1.0.190/record.json",
-      "type": "application/json",
-      "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) code v1.0.190"
-    },
-    {
-      "rel": "item",
-      "href": "./eradiate-radiative-transfer-workflow/record.json",
-      "type": "application/json",
-      "title": "Eradiate Radiative Transfer Model - software package"
-    },
-    {
-      "rel": "item",
-      "href": "./polar-lakes-workflow/record.json",
-      "type": "application/json",
-      "title": "The PolarLakes Workflow: A Reproducible Framework for Multi-Sensor Supraglacial Lake Detection and Dataset Generation Using U-Net on Sentinel-1 and Sentinel-2 Data"
-    },
-    {
-      "rel": "item",
-      "href": "./land-biosphere-society/record.json",
-      "type": "application/json",
-      "title": "DeepESDL Science Case: Diagnosing syndromes of biosphere-atmosphere-socioeconomic change"
+      "title": "Ocean Data Cube for Principal Component Analysis on Time Variability"
     },
     {
       "rel": "item",

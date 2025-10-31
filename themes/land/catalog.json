@@ -385,12 +385,6 @@
       "href": "../../projects/ospd/collection.json",
       "type": "application/json",
       "title": "OSPD"
-    },
-    {
-      "rel": "child",
-      "href": "../../products/testing/collection.json",
-      "type": "application/json",
-      "title": "testing"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

@@ -33,16 +33,16 @@
       "title": "Project: (LPF) ArcticSummIT"
     },
     {
-      "href": "../../themes/land/catalog.json",
-      "rel": "related",
-      "type": "application/json",
-      "title": "Theme: Land"
-    },
-    {
       "href": "../../variables/14-co2-delta/catalog.json",
       "rel": "related",
       "type": "application/json",
       "title": "Variable: (14)CO2 Delta"
+    },
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Oceans"
     }
   ],
   "osc:project": "arcticsummit-arctic-summer-ice-thickness",
@@ -51,7 +51,7 @@
       "scheme": "https://github.com/stac-extensions/osc#theme",
       "concepts": [
         {
-          "id": "land"
+          "id": "oceans"
         }
       ]
     }

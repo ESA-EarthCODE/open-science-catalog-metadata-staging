@@ -51,9 +51,9 @@
     },
     {
       "rel": "related",
-      "href": "../../experiments/demo-cmems-sst-workflow/record.json",
+      "href": "../../experiments/lps-demo-cmems-sst-workflow/record.json",
       "type": "application/json",
-      "title": "Experiment: Demo CMEMS SST"
+      "title": "Experiment: LPS Demo CMEMS SST"
     }
   ],
   "stac_extensions": [
@@ -74,8 +74,8 @@
       "name": "cmems-sst"
     }
   ],
-  "created": "2025-08-19T14:32:23.052525+00:00",
-  "updated": "2025-08-19T14:32:23.052525+00:00",
+  "created": "2025-11-18T17:45:53.217975+00:00",
+  "updated": "2025-11-18T17:45:53.217975+00:00",
   "themes": [
     {
       "concepts": [

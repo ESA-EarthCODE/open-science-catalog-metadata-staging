@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "href": "../../workflows/esa-cci-permafrost/record.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Workflow: ESA CCI permafrost"
     }
   ],
   "stac_extensions": [
@@ -122,7 +128,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:32:23.030110Z",
+  "updated": "2025-07-22T20:52:58Z",
   "title": "3D-EARTH",
   "extent": {
     "spatial": {
@@ -145,5 +151,8 @@
     }
   },
   "license": "proprietary",
-  "keywords": []
+  "keywords": [],
+  "osc:workflows": [
+    "esa-cci-permafrost"
+  ]
 }

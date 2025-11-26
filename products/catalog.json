@@ -1832,6 +1832,12 @@
       "href": "./polarwarp/collection.json",
       "type": "application/json",
       "title": "Polarwarp"
+    },
+    {
+      "rel": "child",
+      "href": "./polarwarp/collection.json",
+      "type": "application/json",
+      "title": "Polarwarp"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

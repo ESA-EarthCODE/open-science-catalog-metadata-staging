@@ -1832,6 +1832,12 @@
       "href": "./polarwarp/collection.json",
       "type": "application/json",
       "title": "Polarwarp"
+    },
+    {
+      "rel": "child",
+      "href": "./sentinel3-ampli-ice-sheet-elevation/collection.json",
+      "type": "application/json",
+      "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

@@ -68,6 +68,24 @@
       "href": "./waterbodies/record.json",
       "type": "application/json",
       "title": "Waterbodies"
+    },
+    {
+      "rel": "item",
+      "href": "./kindgrove-mangrove-biomass-workflow/record.json",
+      "type": "application/json",
+      "title": "KindGrove: Mangrove Biomass Estimation"
+    },
+    {
+      "rel": "item",
+      "href": "./cvi-workflow/record.json",
+      "type": "application/json",
+      "title": "Coastal Vulnerability Index (CVI) Workflow"
+    },
+     {
+      "rel": "item",
+      "href": "./app-ml4floods/record.json",
+      "type": "application/json",
+      "title": "ML4Floods Inference for Flood Extent Estimation"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

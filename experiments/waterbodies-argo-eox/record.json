@@ -95,19 +95,31 @@
       "rel": "child",
       "href": "../../products/water-bodies-argo-eox/collection.json",
       "type": "application/json",
-      "title": "Polarwarp"
+      "title": "Water Bodies on EOx Experiment Outputs"
     },
     {
       "rel": "related",
       "href": "../../themes/land/catalog.json",
       "type": "application/json",
-      "title": "Theme: Cryosphere"
+      "title": "Theme: Land"
     },
     {
       "rel": "related",
-      "href": "../../workflows/water-bodies-argo/record.json",
+      "href": "../../workflows/waterbodies-argo/record.json",
       "type": "application/json",
       "title": "Workflow: Water Bodies Ported to Argo Workflows"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
     },
     {
       "rel": "self",

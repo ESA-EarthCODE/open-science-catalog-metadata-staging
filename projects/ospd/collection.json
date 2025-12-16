@@ -34,7 +34,8 @@
   ],
 
   "osc-prov:generated": [
-    "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/waterbodies/record.json"
+    "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/waterbodies/record.json",
+    "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/waterbodies-argo/record.json"
   ],
 
   "links": [
@@ -66,6 +67,12 @@
       "href": "../../workflows/waterbodies/record.json",
       "type": "application/json",
       "title": "Workflow: Waterbodies"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/waterbodies-argo/record.json",
+      "type": "application/json",
+      "title": "Workflow: Waterbodies Ported to Argo Workflows"
     },
     {
       "href": "../../themes/land/catalog.json",

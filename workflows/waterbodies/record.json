@@ -21,76 +21,7 @@
     "language": {
       "code": ""
     },
-    "languages": [],
-
-    "osc-prov:type": [
-      "Entity", 
-      "Plan", 
-      "Workflow", 
-      "EOApplicationPackage"
-    ],
-
-    "osc-prov:generatedBy": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/ospd/collection.json",
-
-    "osc-prov:hasInput": {
-      "aoi": {
-        "title": "area of interest",
-        "description": "area of interest as a bounding box",
-        "schema": {
-          "type": "string",
-          "default": "-121.399,39.834,-120.74,40.472",
-          "pattern": "^-?\\d+(\\.\\d+)?,-?\\d+(\\.\\d+)?, -?\\d+(\\.\\d+)?,-?\\d+(\\.\\d+)?$"
-        }
-      },
-      "epsg": {
-        "title": "EPSG code",
-        "description": "EPSG code",
-        "schema": {
-          "type": "string",
-          "default": "EPSG:4326"
-        }
-      },
-      "stac_items": {
-        "title": "Sentinel-2 STAC items",
-        "description": "list of Sentinel-2 COG STAC items",
-        "schema": {
-          "type": "array",
-          "items": {
-            "type": "string",
-            "format": "uri"
-          },
-          "minItems": 1
-        },
-        "default": [
-          "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2B_10TFK_20210713_0_L2A",
-          "https://earth-search.aws.element84.com/v0/collections/sentinel-s2-l2a-cogs/items/S2A_10TFK_20220524_0_L2A"
-        ]
-      },
-      "bands": {
-        "title": "bands used for the NDWI",
-        "description": "bands used for the NDWI",
-        "schema": {
-          "type": "array",
-          "items": {
-            "type": "string"
-          },
-          "minItems": 2,
-          "maxItems": 2,
-          "default": ["green", "nir"]
-        }
-      }
-    },
-    "osc-prov:hasOutput": {
-      "stac_catalog": {
-        "title": "STAC Catalog",
-        "description": "STAC Catalog containing the water bodies results",
-        "osc-prov:type": ["Collection", "Entity"],
-        "schema": {
-          "type": "string",
-          "format": "uri"
-        }
-      }
-    }
+    "languages": []
   },
   "links": [
     {
@@ -122,19 +53,12 @@
       "type": "application/clw+yaml",
       "hreflang": "",
       "title": "OGC Application Package"
-    },
-    {
-      "href": "https://raw.githubusercontent.com/tjellicoe-tpzuk/eo-workflow-examples/refs/heads/main/water-bodies/water-bodies.cwl",
-      "rel": "prov:WorkflowDefinition",
-      "type": "application/cwl+yaml",
-      "title": "OGC Application Package"
     }
   ],
   "conformsTo": [
     "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
     "https://stac-extensions.github.io/application/v0.1.0/schema.json",
-    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-ogc-application-package",
-    "https://ahaywardtvuk.github.io/osc-prov/v0.1.0/schema.json"
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-ogc-application-package"
   ],
   "linkTemplates": []
 }

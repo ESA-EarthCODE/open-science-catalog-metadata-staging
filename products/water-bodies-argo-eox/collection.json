@@ -41,6 +41,12 @@
       "title": "EO Mission: Sentinel-2"
     },
     {
+      "rel": "via",
+      "href": "https://github.com/tjellicoe-tpzuk/eo-workflow-examples",
+      "type": "text/html",
+      "title": "Earth Observation Example Workflows"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-bodies-argo-eox/collection.json",
       "type": "application/json"

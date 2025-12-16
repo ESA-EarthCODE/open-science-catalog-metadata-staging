@@ -107,7 +107,7 @@
       "rel": "related",
       "href": "../../workflows/waterbodies-argo/record.json",
       "type": "application/json",
-      "title": "Workflow: Water Bodies Ported to Argo Workflows"
+      "title": "Workflow: Water bodies workflow adapted to Argo Workflows"
     },
     {
       "rel": "input",

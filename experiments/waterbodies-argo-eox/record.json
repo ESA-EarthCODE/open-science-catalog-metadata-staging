@@ -47,13 +47,13 @@
     "osc-prov:generated": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-bodies-argo-eox/collection.json",
     "osc-prov:describedByWorkflow": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/waterbodies-argo/record.json",
     "osc-prov:wasEnactedBy": {
-      "id": "eox-platform",
+      "id": "eoxhub-workspaces",
       "type": [
-        "WorkfowEngine",
+        "WorkflowEngine",
         "SoftwareAgent",
         "Agent"
       ],
-      "prov:label": "Argo Workflows v123"
+      "prov:label": "EOxHub Workspaces"
     },
     "osc-prov:usedInput": [
       {

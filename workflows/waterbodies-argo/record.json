@@ -31,11 +31,10 @@
     "externalIds": [],
     "formats": [],
     "language": {
-      "code": ""
+      "code": "en-GB",
+      "name": "English (Great Britain)"
     },
-    "languages": [
-      "python"
-    ],
+    "languages": [],
     "osc-prov:type": [
       "Entity",
       "Plan",
@@ -146,7 +145,7 @@
       "title": "Argo Workflows Definition"
     },
     {
-      "rel": "application-originating-platform",
+      "rel": "application-platform",
       "title": "EOxHub Workspaces",
       "href": "https://workspace.deside.hub-ovh.eox.at/",
       "type": "text/html",

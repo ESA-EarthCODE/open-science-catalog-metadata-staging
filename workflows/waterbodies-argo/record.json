@@ -144,6 +144,22 @@
       "rel": "osc-prov:WorkflowDefinition",
       "type": "application/vnd.argoproj.workflow.v1alpha1+yaml ",
       "title": "Argo Workflows Definition"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "EOxHub Workspaces",
+      "href": "https://workspace.deside.hub-ovh.eox.at/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "argo-workflow"
+      ],
+      "application:preferred_app": "argo"
+    },
+    {
+      "rel": "related",
+      "href": "https://workspace.deside.hub-ovh.eox.at/argo-workflows-server/processes/water-bodies",
+      "type": "text/html",
+      "title": "Trigger workflow via API provided by EOxHub Workspaces"
     }
   ],
   "conformsTo": [

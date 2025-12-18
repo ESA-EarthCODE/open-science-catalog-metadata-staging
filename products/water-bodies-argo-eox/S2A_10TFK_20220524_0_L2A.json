@@ -212,7 +212,7 @@
   ],
   "assets": {
     "data": {
-      "href": "https://github.com/tjellicoe-tpzuk/eo-workflow-examples/raw/refs/heads/main/water-bodies/outputs/S2A_10TFK_20220524_0_L2A/otsu.tif", // should probably be actual output from EOx
+      "href": "https://github.com/tjellicoe-tpzuk/eo-workflow-examples/raw/refs/heads/main/water-bodies/outputs/S2A_10TFK_20220524_0_L2A/otsu.tif",
       "type": "image/tiff; application=geotiff",
       "roles": [
         "data",

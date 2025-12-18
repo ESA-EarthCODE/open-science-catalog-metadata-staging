@@ -42,8 +42,8 @@
       "WorkflowRun"
     ],
     "osc-prov:generatedBy": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/ospd/collection.json",
-    "osc-prov:startedAtTime": "2025-12-16T10:40:50Z", // updated once running
-    "osc-prov:endedAtTime": "2025-12-16T10:44:56Z", // updated once running
+    "osc-prov:startedAtTime": "2025-12-16T10:40:50Z",
+    "osc-prov:endedAtTime": "2025-12-16T10:44:56Z",
     "osc-prov:generated": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/water-bodies-argo-eox/collection.json",
     "osc-prov:describedByWorkflow": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/waterbodies-argo/record.json",
     "osc-prov:wasEnactedBy": {

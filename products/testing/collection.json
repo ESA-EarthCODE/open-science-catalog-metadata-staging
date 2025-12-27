@@ -1,0 +1,62 @@
+{
+  "id": "testing",
+  "title": "testing",
+  "created": "2025-10-31T11:13:44Z",
+  "osc:status": "completed",
+  "type": "Collection",
+  "osc:type": "product",
+  "stac_version": "1.0.0",
+  "description": "trest",
+  "license": "various",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -20.481913003576818,
+          24.2974426055807,
+          34.93976638977788,
+          55.759633067416786
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        null
+      ]
+    }
+  },
+  "links": [
+    {
+      "href": "../../projects/arcticsummit-arctic-summer-ice-thickness/collection.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Project: (LPF) ArcticSummIT"
+    },
+    {
+      "href": "../../variables/14-co2-delta/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Variable: (14)CO2 Delta"
+    },
+    {
+      "href": "../../themes/oceans/catalog.json",
+      "rel": "related",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    }
+  ],
+  "osc:project": "arcticsummit-arctic-summer-ice-thickness",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "oceans"
+        }
+      ]
+    }
+  ],
+  "osc:variables": [
+    "14-co2-delta"
+  ]
+}

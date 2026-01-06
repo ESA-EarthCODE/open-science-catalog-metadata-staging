@@ -71,6 +71,12 @@
     },
     {
       "rel": "item",
+      "href": "./waterbodies-argo/record.json",
+      "type": "application/json",
+      "title": "Water bodies workflow adapted to Argo Workflows"
+    },
+    {
+      "rel": "item",
       "href": "./kindgrove-mangrove-biomass-workflow/record.json",
       "type": "application/json",
       "title": "KindGrove: Mangrove Biomass Estimation"
@@ -81,7 +87,7 @@
       "type": "application/json",
       "title": "Coastal Vulnerability Index (CVI) Workflow"
     },
-     {
+    {
       "rel": "item",
       "href": "./app-ml4floods/record.json",
       "type": "application/json",

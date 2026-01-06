@@ -50,8 +50,14 @@
       "href": "./polarwarp/record.json",
       "type": "application/json",
       "title": "Polarwarp"
+    },
+    {
+      "rel": "item",
+      "href": "./waterbodies-argo-eox/record.json",
+      "type": "application/json",
+      "title": "Water Bodies on EOx"
     }
   ],
-  "updated": "2025-01-29T18:00:00.000000Z",
+  "updated": "2025-12-16T15:32:00.000000Z",
   "title": "Experiments"
 }

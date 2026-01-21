@@ -38,6 +38,13 @@
       "href": "./worldcereal_crop_extent_workflow/record.json",
       "type": "application/json",
       "title": "ESA worldcereal global crop extent detector"
+    },
+    {
+      "rel": "item",
+      "href": "./insula-access-and-discovery-notebook/record.json",
+      "type": "application/json",
+      "title": "Notebook for Insula API Access and Discovery"
+
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

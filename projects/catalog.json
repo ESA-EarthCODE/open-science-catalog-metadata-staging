@@ -1103,6 +1103,12 @@
       "title": "SRAL Processing over Land Ice"
     },
     {
+      "rel": "child",
+      "href": "./insula-test-project/collection.json",
+      "type": "application/json",
+      "title": "InsulaTestProject"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

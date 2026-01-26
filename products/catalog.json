@@ -1500,6 +1500,12 @@
     },
     {
       "rel": "child",
+      "href": "./water-bodies-argo-eox/collection.json",
+      "type": "application/json",
+      "title": "Water Bodies on EOx Experiment Outputs"
+    },
+    {
+      "rel": "child",
       "href": "./water-level-amazon-itapeua-ridesat/collection.json",
       "type": "application/json",
       "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission"
@@ -1811,15 +1817,21 @@
       "title": "Sentinel-3 AMPLI Ice Sheet Elevation"
     },
     {
+      "rel": "child",
+      "href": "./cmems-sst/collection.json",
+      "type": "application/json",
+      "title": "cmems-sst"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/catalog.json",
       "type": "application/json"
     },
     {
       "rel": "child",
-      "href": "./worldcereal_crop_extent_product/collection.json",
+      "href": "./polarwarp/collection.json",
       "type": "application/json",
-      "title": "WorldCereal - Crop Extent - Product - Belgium"
+      "title": "Polarwarp"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

@@ -1074,6 +1074,12 @@
     },
     {
       "rel": "child",
+      "href": "./earthcode-tutorial-examples/collection.json",
+      "type": "application/json",
+      "title": "EarthCODE Tutorial Workshops"
+    },
+    {
+      "rel": "child",
       "href": "./lpf-wise/collection.json",
       "type": "application/json",
       "title": "(LPF) WISE"
@@ -1092,9 +1098,9 @@
     },
     {
       "rel": "child",
-      "href": "./polaris/collection.json",
+      "href": "./cerulean-information-factory/collection.json",
       "type": "application/json",
-      "title": "POLARIS"
+      "title": "Cerulean Information Factory"
     },
     {
       "rel": "child",
@@ -1109,6 +1115,12 @@
       "title": "InsulaTestProject"
     },
     {
+      "rel": "child",
+      "href": "./careheat/collection.json",
+      "type": "application/json",
+      "title": "deteCtion and threAts of maRinE Heat waves (CAREHeat)"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",
@@ -1118,6 +1130,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "./ospd/collection.json",
+      "type": "application/json",
+      "title": "OSPD"
     }
   ],
   "updated": "2024-09-12T20:32:23.037110Z",

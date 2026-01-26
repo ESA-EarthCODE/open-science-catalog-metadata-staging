@@ -381,10 +381,10 @@
       "type": "application/json"
     },
     {
-      "rel": "child",
-      "href": "../../products/worldcereal_crop_extent_product/collection.json",
+      "rel": "related",
+      "href": "../../projects/ospd/collection.json",
       "type": "application/json",
-      "title": "WorldCereal - Crop Extent - Product - Belgium"
+      "title": "OSPD"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

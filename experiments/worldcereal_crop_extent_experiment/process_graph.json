@@ -1,0 +1,22 @@
+{
+  "process_graph": {
+    "worldcereal_crop_extent": {
+      "arguments": {
+        "spatial_extent": {
+          "east": 5.266836253612333,
+          "north": 51.29371851430702,
+          "south": 51.23411458175562,
+          "west": 5.149582796663117
+        },
+        "temporal_extent": [
+          "2024-01-01T00:00:00Z",
+          "2024-12-31T00:00:00Z"
+        ]
+      },
+      "description": "Crop extent mapping using Sentinel-1, Sentinel-2, METEO and Copernicus-30 data",
+      "namespace": "https://raw.githubusercontent.com/WorldCereal/worldcereal-classification/refs/tags/worldcereal_crop_extent_v1.0.2/src/worldcereal/udp/worldcereal_crop_extent.json",
+      "process_id": "worldcereal_crop_extent",
+      "result": true
+    }
+  }
+}

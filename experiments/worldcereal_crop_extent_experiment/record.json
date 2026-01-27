@@ -1,0 +1,105 @@
+{
+  "id": "worldcereal_crop_extent_experiment",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core",
+    "https://stac-extensions.github.io/application/v0.1.0/schema.json",
+    "https://raw.githubusercontent.com/EOEPCA/metadata-profile/refs/heads/1.0/schemas/application-type-openeo"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2025-08-20T10:51:39.512Z",
+    "updated": "2025-08-20T10:51:39.512Z",
+    "type": "experiment",
+    "title": "WorldCereal - Crop Extent - Experiment - Belgium",
+    "description": "Experiment of the WorldCereal Crop Extent workflow in Belgium",
+    "license": "",
+    "osc:project": "worldcereal",
+    "osc:workflow": "worldcereal_crop_extent_workflow",
+    "osc:product": "worldcereal_crop_extent_product",
+    "application:type": "openeo-process-graph",
+    "version": "2",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/worldcereal_crop_extent_workflow/record.json",
+      "type": "application/json",
+      "title": "Workflow: worldcereal_crop_extent_experiment - Workflow"
+    },
+    {
+      "rel": "related",
+      "href": "../../products/worldcereal_crop_extent_product/collection.json",
+      "type": "application/json",
+      "title": "Product: WorldCereal - Crop Extent - Product - Belgium"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/worldcereal/collection.json",
+      "type": "application/json",
+      "title": "Project: WorldCereal"
+    },
+    {
+      "rel": "application",
+      "title": "openEO process graph: WorldCereal - Crop Extent - Experiment - Belgium",
+      "href": "https://raw.githubusercontent.com/ESA-EarthCODE/open-science-catalog-metadata-testing/refs/heads/main/experiments/worldcereal_crop_extent_experiment/process_graph.json",
+      "type": "application/json",
+      "application:type": "openeo-process-graph"
+    },
+    {
+      "rel": "application-platform",
+      "title": "Copernicus Data Space Ecosystem openEO Aggregator",
+      "href": "https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "application:platform_supports": [
+        "openeo-process-graph"
+      ]
+    },
+    {
+      "rel": "related",
+      "href": "https://editor.openeo.org/?process=https://raw.githubusercontent.com/ESA-EarthCODE/open-science-catalog-metadata-testing/refs/heads/main/experiments/worldcereal_crop_extent_experiment/process_graph.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "Execute experiment in penEO Web Editor"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    }
+  ]
+}

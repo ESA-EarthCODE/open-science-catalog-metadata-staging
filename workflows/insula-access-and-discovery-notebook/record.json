@@ -1,0 +1,95 @@
+{
+  "id": "insula-access-and-discovery-notebook",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "Notebook for Insula API Access and Discovery",
+    "description": "A quick guide for how to access Insula's API for various tasks in Python",
+    "osc:type": "workflow",
+    "osc:project": "insula-test-project",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "updated": "2026-01-20T14:56:17Z",
+    "created": "2026-01-20T14:56:17Z",
+    "keywords": [
+      "insula_api"
+    ],
+    "license": "proprietary",
+    "version": "1.0",
+    "contacts": [
+      {
+        "name": "Anca Anghelea",
+        "roles": [
+          "technical_officer"
+        ],
+        "emails": [
+          {
+            "value": "anca@mail.com"
+          }
+        ]
+      },
+      {
+        "name": "CGI",
+        "roles": [
+          "consortium_member"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/insula-test-project/collection.json",
+      "type": "application/json",
+      "title": "Project: InsulaTestProject"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "jupyter-notebook",
+      "href": "https://raw.githubusercontent.com/cgi-italy/notebooks/refs/heads/main/InsulaAccess%26Discovery.ipynb",
+      "type": "application/json",
+      "title": "Jupyter Notebook"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/cgi-italy/notebooks/blob/main/InsulaAccess&Discovery.ipynb",
+      "type": "application/json",
+      "title": "Git source repository"
+    }
+  ]
+}

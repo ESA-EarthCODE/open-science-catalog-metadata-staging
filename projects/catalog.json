@@ -1110,6 +1110,12 @@
     },
     {
       "rel": "child",
+      "href": "./insula-test-project/collection.json",
+      "type": "application/json",
+      "title": "InsulaTestProject"
+    },
+    {
+      "rel": "child",
       "href": "./careheat/collection.json",
       "type": "application/json",
       "title": "deteCtion and threAts of maRinE Heat waves (CAREHeat)"

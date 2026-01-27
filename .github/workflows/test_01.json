@@ -1,6 +1,6 @@
 {
   "type": "Collection",
-  "id": "water-level-amazon-itapeua-ridesat",
+  "id": "Test DOI 01",
   "stac_version": "1.0.0",
   "description": "prova update 01",
   "sci:citation": "Vega GC, Pertierra LR, Olalla-T\u00e1rraga M\u00c1 (2017) Data from: MERRAclim, a high-resolution global dataset of remotely sensed bioclimatic variables for ecological modelling. Dryad Digital Repository.",
@@ -117,7 +117,7 @@
     "aqua-eos-pm-1"
   ],
   "updated": "2024-09-12T20:32:06.251108Z",
-  "title": "Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission",
+  "title": "NEW TEST last - Water level from altimetry_Temporal series_L3 Products Database_Amazon Itapeua_Multimission",
   "extent": {
     "spatial": {
       "bbox": [
@@ -166,6 +166,5 @@
         "host"
       ]
     }
-  ],
-  "sci:doi": "10.80823/vsdh-tk55"
+  ]
 }

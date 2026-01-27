@@ -39,15 +39,15 @@
     },
     {
       "rel": "related",
-      "href": "../../workflows/worldcereal-workflow/record.json",
+      "href": "../../workflows/worldcereal_crop_extent_workflow/record.json",
       "type": "application/json",
       "title": "Workflow: ESA worldcereal global crop extent detector"
     },
     {
-      "rel": "related",
-      "href": "../../products/worldcereal-crop-extent-belgium/collection.json",
+      "rel": "child",
+      "href": "../../products/worldcereal_crop_extent_product/collection.json",
       "type": "application/json",
-      "title": "Product: WorldCereal Crop Extent - Belgium"
+      "title": "Product: WorldCereal - Crop Extent - Product - Belgium"
     }
   ],
   "stac_extensions": [
@@ -100,10 +100,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

@@ -44,23 +44,6 @@
       "href": "./glambie-v1.0.190-experiment/record.json",
       "type": "application/json",
       "title": "Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
-    },
-    {
-      "rel": "item",
-      "href": "./polarwarp/record.json",
-      "type": "application/json",
-      "title": "Polarwarp"
-    },
-    {
-      "rel": "parent",
-      "href": "../catalog.json",
-      "type": "application/json",
-      "title": "Open Science Catalog"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/catalog.json",
-      "type": "application/json"
     }
   ],
   "updated": "2025-12-16T15:32:00.000000Z",

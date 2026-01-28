@@ -73,11 +73,6 @@
       "href": "../../eo-missions/gpm-global-precipitation-measurement/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GPM (Global Precipitation Measurement)"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/extraim-daily-precipitation/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -146,5 +141,14 @@
     "Precipitation",
     "Atmosphere",
     "Extreme Precipitation"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": true,
+  "fair:product_approved_metadata_domain": true,
+  "fair:product_approved_data_domain": true,
+  "fair:file_access": true,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

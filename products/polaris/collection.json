@@ -46,19 +46,14 @@
       "title": "Experiment: POLARIS"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/polaris/collection.json",
-      "type": "application/json"
-    },
-    {
-      "href": "./item.json",
       "rel": "item",
+      "href": "./item.json",
       "type": "application/json",
       "title": "Example Item"
     },
     {
-      "href": "https://github.com/gtif-cerulean/polaris",
       "rel": "via",
+      "href": "https://github.com/gtif-cerulean/polaris",
       "title": "POLARIS GitHub Repository"
     }
   ],
@@ -114,5 +109,14 @@
   "keywords": [
     "sea ice",
     "polar"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": false,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": false,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": true
 }

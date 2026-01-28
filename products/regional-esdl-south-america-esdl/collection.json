@@ -48,11 +48,6 @@
       "href": "../../variables/land-use-land-cover-classification/catalog.json",
       "type": "application/json",
       "title": "Variable: Land Use/Land Cover Classification"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/regional-esdl-south-america-esdl/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -111,5 +106,14 @@
   "keywords": [
     "Land Use/Land Cover",
     "Land Use/Land Cover Classification"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": true,
+  "fair:product_has_documentation": true,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": true,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

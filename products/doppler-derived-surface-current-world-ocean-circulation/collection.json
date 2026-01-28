@@ -43,11 +43,6 @@
       "href": "../../variables/surface-currents/catalog.json",
       "type": "application/json",
       "title": "Variable: Surface Currents"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/doppler-derived-surface-current-world-ocean-circulation/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -106,5 +101,14 @@
     "Ocean Circulation",
     "Ocean Currents",
     "Surface Currents"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": true,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": false,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

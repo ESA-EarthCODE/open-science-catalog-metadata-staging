@@ -73,11 +73,6 @@
       "href": "../../eo-missions/aqua-eos-pm-1/catalog.json",
       "type": "application/json",
       "title": "EO Mission: AQUA (EOS/PM-1)"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/simulated-river-discharge-mississippi-chester-ridesat/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -141,5 +136,14 @@
   "keywords": [
     "Atmospheric/Ocean Indicators",
     "Fresh Water River Discharge"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": true,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": false,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

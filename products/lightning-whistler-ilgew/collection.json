@@ -50,11 +50,6 @@
       "href": "../../eo-missions/swarm/catalog.json",
       "type": "application/json",
       "title": "EO Mission: SWARM"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/lightning-whistler-ilgew/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -120,5 +115,14 @@
     "Weather Events",
     "Upper Atmosphere",
     "Physical Properties"
-  ]
+  ],
+  "fair:product_url_resolves": false,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": false,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": false,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

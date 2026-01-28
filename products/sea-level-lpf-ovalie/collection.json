@@ -48,11 +48,6 @@
       "href": "../../variables/sea-level/catalog.json",
       "type": "application/json",
       "title": "Variable: Sea Level"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/sea-level-lpf-ovalie/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -112,5 +107,14 @@
   "keywords": [
     "Sea Surface Topography",
     "Sea Level"
-  ]
+  ],
+  "fair:product_url_resolves": false,
+  "fair:product_has_doi": true,
+  "fair:product_has_documentation": true,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": true,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

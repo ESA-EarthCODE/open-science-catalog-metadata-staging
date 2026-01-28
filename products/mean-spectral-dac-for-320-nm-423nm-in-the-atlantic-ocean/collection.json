@@ -55,11 +55,6 @@
       "href": "../../eo-missions/sentinel-5p/catalog.json",
       "type": "application/json",
       "title": "EO Mission: Sentinel-5p"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/mean-spectral-dac-for-320-nm-423nm-in-the-atlantic-ocean/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -123,5 +118,14 @@
     "Ocean Optics",
     "Attenuation/Transmission",
     "Diffuse Attenuation Coefficient (DAC)"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": true,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": true,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

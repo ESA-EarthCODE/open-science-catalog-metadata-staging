@@ -49,11 +49,6 @@
       "href": "../../variables/burned-area/catalog.json",
       "type": "application/json",
       "title": "Variable: Burned Area"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/seasfire-cube/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -116,5 +111,14 @@
     "Wildfires",
     "Burned Area",
     "Seasonal Fire"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": true,
+  "fair:product_has_documentation": false,
+  "fair:product_approved_metadata_domain": true,
+  "fair:product_approved_data_domain": true,
+  "fair:file_access": true,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

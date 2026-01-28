@@ -17,7 +17,7 @@
       }
     ],
     "updated": "2026-01-28T18:18:18Z",
-    "created": "2026-01-21T18:18:18Z",
+    "created": "2026-01-28T18:18:18Z",
     "keywords": [
       "glacier mass balance",
       "Python"
@@ -57,26 +57,14 @@
       "title": "Project: Glacier Mass Balance Intercomparison Exercise (GlaMBIE)"
     },
     {
-      "rel": "related",
-      "href": "../../experiments/glambie-v1.0.190-experiment/record.json",
-      "type": "application/json",
-      "title": "Experiment: Glacier Mass Balance Intercomparison Exercise (GlaMBIE) Experiment v1.0.190"
-    },
-    {
       "rel": "git",
       "href": "https://github.com/ESA-EarthCODE/glambie.git",
       "type": "application/json",
       "title": "Git source repository"
     },
     {
-      "rel": "download",
-      "href": "https://zenodo.org/records/18329043/files/earthwave/glambie-v1.0.190.zip?download=1",
-      "type": "application/zip",
-      "title": "Automatically generated build release of the glambie v.1.0.190 code."
-    },
-    {
       "rel": "related",
-      "href": "../../cryosphere/catalog.json",
+      "href": "../../cryosphere/land/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
     }

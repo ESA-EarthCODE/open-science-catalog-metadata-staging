@@ -85,11 +85,6 @@
       "href": "../../eo-missions/oersted/catalog.json",
       "type": "application/json",
       "title": "EO Mission: OERSTED"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/chaos-field-model-core-4d-earth-swarm/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -162,5 +157,14 @@
     "Magnetic Fields/Magnetic Currents",
     "Sun-Earth Interactions",
     "Geomagnetic Indices"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": false,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": false,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

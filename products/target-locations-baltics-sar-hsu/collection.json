@@ -56,11 +56,6 @@
       "href": "../../eo-missions/glonass/catalog.json",
       "type": "application/json",
       "title": "EO Mission: GLONASS"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/target-locations-baltics-sar-hsu/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -123,5 +118,14 @@
     "Sea Surface Topography",
     "Sea Surface Height",
     "Sea Surface Height Anomaly (SSHA)"
-  ]
+  ],
+  "fair:product_url_resolves": true,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": false,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": false,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

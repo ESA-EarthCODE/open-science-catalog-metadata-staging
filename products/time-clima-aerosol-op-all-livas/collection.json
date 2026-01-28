@@ -49,11 +49,6 @@
       "href": "../../eo-missions/calipso/catalog.json",
       "type": "application/json",
       "title": "EO Mission: CALIPSO"
-    },
-    {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/time-clima-aerosol-op-all-livas/collection.json",
-      "type": "application/json"
     }
   ],
   "stac_extensions": [
@@ -113,5 +108,14 @@
   "keywords": [
     "Aerosols",
     "Aerosol Optical Depth/Thickness"
-  ]
+  ],
+  "fair:product_url_resolves": false,
+  "fair:product_has_doi": false,
+  "fair:product_has_documentation": true,
+  "fair:product_approved_metadata_domain": false,
+  "fair:product_approved_data_domain": false,
+  "fair:file_access": false,
+  "fair:file_acessible_files_rate": 0.0,
+  "fair:file_cloud_assets_rate": 0.0,
+  "fair:workflow_exists": false
 }

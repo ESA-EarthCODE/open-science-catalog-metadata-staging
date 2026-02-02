@@ -1130,6 +1130,12 @@
       "href": "./ospd/collection.json",
       "type": "application/json",
       "title": "OSPD"
+    },
+    {
+      "rel": "child",
+      "href": "./insula-test-project/collection.json",
+      "type": "application/json",
+      "title": "InsulaTestProject"
     }
   ],
   "updated": "2024-09-12T20:32:23.037110Z",

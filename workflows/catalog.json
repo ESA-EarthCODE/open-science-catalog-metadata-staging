@@ -98,6 +98,12 @@
       "href": "./insula-access-and-discovery-notebook/record.json",
       "type": "application/json",
       "title": "Notebook for Insula API Access and Discovery"
+    },
+    {
+      "rel": "item",
+      "href": "./sardem-sarsen-workflow/record.json",
+      "type": "application/json",
+      "title": "Application tailored for SAR and DEM data processing"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

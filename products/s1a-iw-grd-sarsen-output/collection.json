@@ -58,19 +58,19 @@
       "rel": "related",
       "href": "../../eo-missions/sentinel-1/catalog.json",
       "type": "application/json",
-      "title": "EO Mission: Sentinel 1"
+      "title": "EO Mission: Sentinel-1"
     },
     {
       "rel": "related",
       "href": "../../variables/digital-elevation-terrain-model-dem/catalog.json",
       "type": "application/json",
-      "title": "Variable: Digital Elevation Terrain Model Dem"
+      "title": "Variable: Digital Elevation/Terrain Model (DEM)"
     },
     {
       "rel": "related",
       "href": "../../variables/land-surface-topography/catalog.json",
       "type": "application/json",
-      "title": "Variable: Land Surface Topography"
+      "title": "Variable: Land surface topography"
     }
   ],
   "stac_extensions": [

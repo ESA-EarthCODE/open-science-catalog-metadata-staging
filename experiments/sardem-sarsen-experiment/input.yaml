@@ -1,3 +1,8 @@
 $comment: >-
-  This file should contain information about the input parameters of the experiment in the future...
-parameters: []
+  Input parameters of the sardem-sarsen experiment.
+parameters:
+  COLLECTION: "EOP:ESA:Sentinel-1"
+  PRODUCT_TYPE: "GRD"
+  PROCESSING_LEVEL: "LEVEL1"
+  SENSOR_MODE: "IW"
+  IDS: "23dec1a6-7457-4f8b-9c4d-bac04455e18d#23dec1a6-7457-4f8b-9c4d-bac04455e18d"

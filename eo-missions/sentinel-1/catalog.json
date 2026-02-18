@@ -209,6 +209,12 @@
       "title": "European Ground Motion Classification dataset (EuGMC)"
     },
     {
+      "rel": "child",
+      "href": "../../products/s1a-iw-grd-sarsen-output/collection.json",
+      "type": "application/json",
+      "title": "Applied topographic correction using SARsen on Sentinel-1 GRD products"
+    },
+    {
       "rel": "parent",
       "href": "../catalog.json",
       "type": "application/json",

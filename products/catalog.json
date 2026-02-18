@@ -1838,6 +1838,12 @@
       "href": "./polarwarp/collection.json",
       "type": "application/json",
       "title": "Polarwarp"
+    },
+    {
+      "rel": "child",
+      "href": "./s1a-iw-grd-sarsen-output/collection.json",
+      "type": "application/json",
+      "title": "Applied topographic correction using SARsen on Sentinel-1 GRD products"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

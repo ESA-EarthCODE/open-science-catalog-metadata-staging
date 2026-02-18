@@ -1,0 +1,116 @@
+{
+  "id": "sardem-sarsen-workflow",
+  "type": "Feature",
+  "geometry": null,
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "properties": {
+    "title": "Application tailored for SAR and DEM data processing",
+    "description": "Application designed to process Synthetic Aperture Radar (SAR) data from Sentinel-1 GRD (Ground Range Detected) products using a Digital Elevation Model (DEM) obtained from Copernicus",
+    "osc:type": "workflow",
+    "osc:project": "insula-test-project",
+    "osc:status": "completed",
+    "formats": [
+      {
+        "name": "GeoTIFF"
+      }
+    ],
+    "updated": "2026-02-17T17:59:01Z",
+    "created": "2026-02-17T17:59:01Z",
+    "keywords": [
+      "Synthetic Aperture Radar",
+      "Sentinel-1 GRD",
+      "CGI"
+    ],
+    "license": "Apache-2.0",
+    "version": "1.0",
+    "contacts": [
+      {
+        "name": "Anca Anghelea",
+        "roles": [
+          "technical_officer"
+        ],
+        "emails": [
+          {
+            "value": "anca@mail.com"
+          }
+        ]
+      },
+      {
+        "name": "CGI",
+        "roles": [
+          "consortium_member"
+        ]
+      }
+    ],
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      },
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "solid-earth"
+          }
+        ]
+      }
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/insula-test-project/collection.json",
+      "type": "application/json",
+      "title": "Project: InsulaTestProject"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/sardem-sarsen-workflow/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/solid-earth/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "cwl",
+      "href": "https://github.com/MAAP-Project/sardem-sarsen/blob/main/esa/cwl/workflow.cwl",
+      "type": "application/json",
+      "title": "Cwl Service"
+    },
+    {
+      "rel": "git",
+      "href": "https://github.com/MAAP-Project/sardem-sarsen/tree/main/esa",
+      "type": "application/json",
+      "title": "Git source repository"
+    }
+  ]
+}

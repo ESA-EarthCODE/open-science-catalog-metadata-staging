@@ -1,0 +1,69 @@
+{
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "id": "upscalinge_-_pv_detection_-_processing_job_12",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Project: 3D-EARTH"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/magnetosphere-ionosphere/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Magnetosphere Ionosphere"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "title": "openEO Workflow",
+      "href": "https://raw.githubusercontent.com/ESA-APEx/apex_algorithms/refs/heads/main/algorithm_catalog/vito/worldcover_statistics/openeo_udp/worldcover_statistics.json"
+    },
+    {
+      "rel": "related",
+      "href": "https://editor.openeo.org/?wizard=UDP&wizard~process=worldcover_statistics&wizard~processUrl=https://raw.githubusercontent.com/ESA-APEx/apex_algorithms/refs/heads/main/algorithm_catalog/vito/worldcover_statistics/openeo_udp/worldcover_statistics.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "openEO Web Editor execution URL for experiment"
+    }
+  ],
+  "properties": {
+    "title": "Upscalinge - PV Detection - Processing Job 12 - Workflow",
+    "description": "Workflow of Upscalinge - PV Detection - Processing Job 12",
+    "created": "2026-02-26T09:15:27.938Z",
+    "updated": "2026-02-26T09:15:27.938Z",
+    "type": "workflow",
+    "osc:missions": [],
+    "osc:project": "3d-earth",
+    "osc:status": "completed",
+    "osc:type": "workflow",
+    "osc:variables": [],
+    "osc:region": "",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "magnetosphere-ionosphere"
+          }
+        ]
+      }
+    ]
+  }
+}

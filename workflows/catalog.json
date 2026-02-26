@@ -92,6 +92,12 @@
       "href": "./app-ml4floods/record.json",
       "type": "application/json",
       "title": "ML4Floods Inference for Flood Extent Estimation"
+    },
+    {
+      "rel": "item",
+      "href": "./upscalinge_-_pv_detection_-_processing_job_12/record.json",
+      "type": "application/json",
+      "title": "Upscalinge - PV Detection - Processing Job 12 - Workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

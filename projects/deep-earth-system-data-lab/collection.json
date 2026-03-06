@@ -69,6 +69,24 @@
       "title": "Theme: Cryosphere"
     },
     {
+      "rel": "child",
+      "href": "../../products/cmems-sst/collection.json",
+      "type": "application/json",
+      "title": "cmems-sst"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "cci-permafrost"
+    },
+    {
       "rel": "related",
       "href": "../../themes/oceans/catalog.json",
       "type": "application/json",

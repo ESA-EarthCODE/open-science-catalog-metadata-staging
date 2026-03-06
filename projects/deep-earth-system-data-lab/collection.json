@@ -75,6 +75,18 @@
       "title": "Theme: Oceans"
     },
     {
+      "rel": "child",
+      "href": "../../products/cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "cci-permafrost"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/projects/deepesdl/collection.json",
       "type": "application/json"

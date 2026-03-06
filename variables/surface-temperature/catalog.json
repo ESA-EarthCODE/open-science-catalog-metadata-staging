@@ -41,6 +41,18 @@
       "title": "Theme: Cryosphere"
     },
     {
+      "rel": "child",
+      "href": "../../products/cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "cci-permafrost"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/surface-temperature/catalog.json",
       "type": "application/json"
@@ -59,7 +71,7 @@
       ]
     }
   ],
-  "updated": "2025-03-17T14:30:23.263437+00:00",
+  "updated": "2026-03-06T17:54:07.616988+00:00",
   "keywords": [],
   "title": "Surface Temperature"
 }

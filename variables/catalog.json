@@ -1564,7 +1564,7 @@
       "type": "application/json",
       "title": "Dead Wood"
     },
-      {
+    {
       "rel": "child",
       "href": "./dead-wood-fuel-moisture-content/catalog.json",
       "type": "application/json",
@@ -7251,6 +7251,24 @@
       "href": "../catalog.json",
       "type": "application/json",
       "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "./surface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Surface Temperature"
+    },
+    {
+      "rel": "child",
+      "href": "./permafrost-area-fraction/catalog.json",
+      "type": "application/json",
+      "title": "Permafrost Area Fraction"
+    },
+    {
+      "rel": "child",
+      "href": "./solid-earth-subsurface-temperature/catalog.json",
+      "type": "application/json",
+      "title": "Solid Earth Subsurface Temperature"
     },
     {
       "rel": "self",

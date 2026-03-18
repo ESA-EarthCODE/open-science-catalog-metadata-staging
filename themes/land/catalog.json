@@ -379,6 +379,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/themes/land/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/uhi_per_pixel/collection.json",
+      "type": "application/json",
+      "title": "UHI_per_pixel - Product"
     }
   ],
   "updated": "2024-08-27T17:27:42.200831Z",

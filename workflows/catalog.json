@@ -97,6 +97,12 @@
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/workflows/catalog.json",
       "type": "application/json"
+    },
+    {
+      "rel": "item",
+      "href": "./uhi_per_pixel/record.json",
+      "type": "application/json",
+      "title": "UHI_per_pixel - Workflow"
     }
   ],
   "updated": "2025-02-19T23:00:00.000000Z",

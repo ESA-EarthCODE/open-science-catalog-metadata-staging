@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/uhi_per_pixel/collection.json",
+      "type": "application/json",
+      "title": "UHI_per_pixel - Product"
     }
   ],
   "stac_extensions": [

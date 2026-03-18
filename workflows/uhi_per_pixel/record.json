@@ -1,0 +1,75 @@
+{
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "id": "uhi_per_pixel",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Workflows"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Project: 3D-EARTH"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "type": "application/json",
+      "title": "openEO Workflow",
+      "href": "https://s3.waw4-1.cloudferro.com/workflows/uhi_per_pixel/uhi_jja_udp.json"
+    },
+    {
+      "rel": "related",
+      "href": "https://editor.openeo.org/?wizard=UDP&wizard~process=UHI_per_pixel&wizard~processUrl=https://s3.waw4-1.cloudferro.com/workflows/uhi_per_pixel/uhi_jja_udp.json&server=https://openeofed.dataspace.copernicus.eu/openeo",
+      "type": "text/html",
+      "title": "openEO Web Editor execution URL for experiment"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/uhi_per_pixel/record.json",
+      "type": "application/json",
+      "title": "Experiment: uhi_per_pixel"
+    }
+  ],
+  "properties": {
+    "title": "UHI_per_pixel - Workflow",
+    "description": "Workflow of UHI_per_pixel",
+    "created": "2026-03-18T15:03:34.667Z",
+    "updated": "2026-03-18T15:03:34.668Z",
+    "type": "workflow",
+    "osc:missions": [],
+    "osc:project": "3d-earth",
+    "osc:status": "completed",
+    "osc:type": "workflow",
+    "osc:variables": [],
+    "osc:region": "",
+    "themes": [
+      {
+        "scheme": "https://github.com/stac-extensions/osc#theme",
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ]
+      }
+    ]
+  }
+}

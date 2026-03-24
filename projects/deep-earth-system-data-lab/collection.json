@@ -84,6 +84,12 @@
       "href": "../../products/Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
       "type": "application/json",
       "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/smos-ard-smos-sm-test-global/collection.json",
+      "type": "application/json",
+      "title": "smos-ard-smos-sm-test-global"
     }
   ],
   "stac_extensions": [

@@ -7274,6 +7274,42 @@
       "href": "./lst-median/catalog.json",
       "type": "application/json",
       "title": "Lst Median"
+    },
+    {
+      "rel": "child",
+      "href": "./chi-2/catalog.json",
+      "type": "application/json",
+      "title": "Chi 2"
+    },
+    {
+      "rel": "child",
+      "href": "./chi-2-p/catalog.json",
+      "type": "application/json",
+      "title": "Chi 2 P"
+    },
+    {
+      "rel": "child",
+      "href": "./n-rfi-x/catalog.json",
+      "type": "application/json",
+      "title": "N Rfi X"
+    },
+    {
+      "rel": "child",
+      "href": "./n-rfi-y/catalog.json",
+      "type": "application/json",
+      "title": "N Rfi Y"
+    },
+    {
+      "rel": "child",
+      "href": "./rfi-prob/catalog.json",
+      "type": "application/json",
+      "title": "Rfi Prob"
+    },
+    {
+      "rel": "child",
+      "href": "./soil-moisture-dqx/catalog.json",
+      "type": "application/json",
+      "title": "Soil Moisture Dqx"
     }
   ],
   "updated": "2025-09-24T20:23:29.844131Z",

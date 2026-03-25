@@ -1,0 +1,159 @@
+{
+  "type": "Collection",
+  "id": "smos-ard-smos-sm-global",
+  "stac_version": "1.1.0",
+  "description": "No description available.",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://github.com/deepesdl/smos-ard-pipeline",
+      "title": "Documentation"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chi-2/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chi 2"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/chi-2-p/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Chi 2 P"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/n-rfi-x/catalog.json",
+      "type": "application/json",
+      "title": "Variable: N Rfi X"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/n-rfi-y/catalog.json",
+      "type": "application/json",
+      "title": "Variable: N Rfi Y"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/rfi-prob/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Rfi Prob"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture"
+    },
+    {
+      "rel": "related",
+      "href": "../../variables/soil-moisture-dqx/catalog.json",
+      "type": "application/json",
+      "title": "Variable: Soil Moisture Dqx"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/smos-ard-smos-sm-global/collection.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/DeepESDL/collection.json",
+      "type": "application/json",
+      "title": "Project: Deepesdl"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/smos-ard-pipeline/record.json",
+      "type": "application/json",
+      "title": "Experiment: SMOS ARD Pipeline"
+    },
+    {
+      "rel": "via",
+      "href": "https://opensciencedata.esa.int/stac-browser/#/external/earthcode-ard-cubes.s3.amazonaws.com/stac/smos-sm/global/catalog.json",
+      "title": "Access"
+    },
+    {
+      "rel": "child",
+      "href": "https://earthcode-ard-cubes.s3.amazonaws.com/stac/smos-sm/global/catalog.json",
+      "type": "application/json",
+      "title": "Items"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/cf/v0.2.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:project": "DeepESDL",
+  "osc:type": "product",
+  "osc:status": "ongoing",
+  "osc:region": "Global",
+  "osc:variables": [
+    "chi-2",
+    "chi-2-p",
+    "n-rfi-x",
+    "n-rfi-y",
+    "rfi-prob",
+    "soil-moisture",
+    "soil-moisture-dqx"
+  ],
+  "osc:missions": [],
+  "cf:parameter": [
+    {
+      "name": "smos-ard-smos-sm-global"
+    }
+  ],
+  "created": "2026-03-25T11:35:13.382802+00:00",
+  "updated": "2026-03-25T11:35:13.382802+00:00",
+  "themes": [
+    {
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ],
+      "scheme": "https://github.com/stac-extensions/osc#theme"
+    }
+  ],
+  "title": "smos-ard-smos-sm-global",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -179.912109375,
+          -88.505859375,
+          179.912109375,
+          88.505859375
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-01-06T00:00:00Z",
+          "2026-01-07T00:00:00Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0"
+}

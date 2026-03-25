@@ -68,6 +68,12 @@
       "href": "../../themes/cryosphere/catalog.json",
       "type": "application/json",
       "title": "Theme: Cryosphere"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/smos-ard-smos-sm-global/collection.json",
+      "type": "application/json",
+      "title": "smos-ard-smos-sm-global"
     }
   ],
   "stac_extensions": [
@@ -86,7 +92,7 @@
       ]
     }
   ],
-  "updated": "2024-09-12T20:23:29.841131Z",
+  "updated": "2026-03-25T11:35:13.932526+00:00",
   "keywords": [],
   "title": "Soil Moisture"
 }

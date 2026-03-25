@@ -1,0 +1,119 @@
+{
+  "id": "smos-ard-pipeline",
+  "title": "SMOS ARD Pipeline",
+  "type": "Feature",
+  "conformsTo": [
+    "http://www.opengis.net/spec/ogcapi-records-1/1.0/req/record-core"
+  ],
+  "geometry": null,
+  "properties": {
+    "created": "2026-03-25T11:35:14.328258+00:00",
+    "updated": "2026-03-25T11:35:14.328258+00:00",
+    "type": "experiment",
+    "title": "SMOS ARD Pipeline",
+    "description": "On-demand SMOS-L2C-SM analysis-ready data cube pipeline. Fetches SMOS L2C products from CREODIAS, applies 1D temporal aggregation and QC masking, writes Zarr cubes to S3, and publishes to the EarthCODE Open Science Catalogue.",
+    "jupyter_kernel_info": null,
+    "keywords": [
+      "SMOS",
+      "Analysis-Ready Data",
+      "ARD",
+      "EarthCODE",
+      "Zarr",
+      "xcube",
+      "Airflow"
+    ],
+    "contacts": [
+      {
+        "name": "DeepESDL Team",
+        "organization": "Brockmann Consult",
+        "links": []
+      }
+    ],
+    "themes": [
+      {
+        "concepts": [
+          {
+            "id": "land"
+          }
+        ],
+        "scheme": "https://github.com/stac-extensions/osc#theme"
+      }
+    ],
+    "formats": [],
+    "license": "MIT",
+    "osc:workflow": "smos-ard-pipeline",
+    "application:type": "jupyter-notebook",
+    "application:container": [
+      "true"
+    ],
+    "application:language": [
+      "Python"
+    ]
+  },
+  "linkTemplates": [],
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Experiments"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/smos-ard-pipeline/record.json",
+      "type": "application/json",
+      "title": "Workflow: SMOS ARD Pipeline"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/deep-earth-system-data-lab/collection.json",
+      "type": "application/json",
+      "title": "Project: DeepESDL"
+    },
+    {
+      "rel": "application-originating-platform",
+      "title": "DeepESDL platform",
+      "href": "https://deep.earthsystemdatalab.net/",
+      "type": "text/html",
+      "application:platform_supports": [
+        "jupyter-notebook"
+      ],
+      "application:preferred_app": "JupyterLab"
+    },
+    {
+      "rel": "input",
+      "href": "./input.yaml",
+      "type": "application/yaml",
+      "title": "Input parameters"
+    },
+    {
+      "rel": "environment",
+      "href": "./environment.yaml",
+      "type": "application/yaml",
+      "title": "Execution environment"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/experiments/smos-ard-pipeline/record.json",
+      "type": "application/json"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/smos-ard-smos-sm-global/collection.json",
+      "type": "application/json",
+      "title": "smos-ard-smos-sm-global"
+    }
+  ]
+}

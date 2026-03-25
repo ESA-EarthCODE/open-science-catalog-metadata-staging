@@ -1,0 +1,58 @@
+{
+  "type": "Catalog",
+  "id": "rfi-prob",
+  "stac_version": "1.1.0",
+  "description": "Probability of radio frequency interference contamination",
+  "links": [
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/smos-ard-smos-sm-global/collection.json",
+      "type": "application/json",
+      "title": "smos-ard-smos-sm-global"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Variables"
+    },
+    {
+      "rel": "via",
+      "href": "https://gcmd.earthdata.nasa.gov/KeywordViewer/scheme/all/27dd85c2-3403-438d-8b0c-8d424df60468?gtm_keyword=SOIL%20MOISTURE&gtm_scheme=sciencekeywords",
+      "type": "text/html",
+      "title": "Description"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "self",
+      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/rfi-prob/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "updated": "2026-03-25T11:35:13.865088+00:00",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "title": "Rfi Prob"
+}

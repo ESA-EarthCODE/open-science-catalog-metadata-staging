@@ -48,6 +48,24 @@
       "href": "../../products/worldcereal-crop-extent-belgium/collection.json",
       "type": "application/json",
       "title": "Product: WorldCereal Crop Extent - Belgium"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/world-cereal-extent-benchmark/record.json",
+      "type": "application/json",
+      "title": "Experiment: world_cereal_extent_benchmark - Experiment"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/world-cereal-extent-benchmark/collection.json",
+      "type": "application/json",
+      "title": "Product: world_cereal_extent_benchmark - Product"
+    },
+    {
+      "rel": "related",
+      "href": "../../workflows/world-cereal-extent-benchmark/record.json",
+      "type": "application/json",
+      "title": "Workflow: world_cereal_extent_benchmark - Workflow"
     }
   ],
   "stac_extensions": [
@@ -58,7 +76,8 @@
   "osc:type": "project",
   "osc:status": "ongoing",
   "osc:workflows": [
-    "worldcereal-workflow"
+    "worldcereal-workflow",
+    "world-cereal-extent-benchmark"
   ],
   "themes": [
     {
@@ -100,10 +119,10 @@
     "spatial": {
       "bbox": [
         [
-          -180.0,
-          -90.0,
-          180.0,
-          90.0
+          -180,
+          -90,
+          180,
+          90
         ]
       ]
     },

@@ -2005,6 +2005,12 @@
       "href": "./Predicted-Land-Surface-Temperature-and-Anomalies/collection.json",
       "type": "application/json",
       "title": "Predicted-Land-Surface-Temperature-and-Anomalies"
+    },
+    {
+      "rel": "child",
+      "href": "./world-cereal-extent-benchmark/collection.json",
+      "type": "application/json",
+      "title": "world_cereal_extent_benchmark - Product"
     }
   ],
   "updated": "2024-09-12T20:32:22.975110Z",

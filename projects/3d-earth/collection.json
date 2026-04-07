@@ -48,6 +48,12 @@
       "href": "../../themes/solid-earth/catalog.json",
       "type": "application/json",
       "title": "Theme: Solid Earth"
+    },
+    {
+      "rel": "child",
+      "href": "../../products/sar-coherence-test-no-time/collection.json",
+      "type": "application/json",
+      "title": "sar_coherence_test_no_time - Product"
     }
   ],
   "stac_extensions": [
@@ -145,5 +151,6 @@
     }
   },
   "license": "proprietary",
-  "keywords": []
+  "keywords": [],
+  "osc:workflows": []
 }

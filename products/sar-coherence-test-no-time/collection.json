@@ -1,0 +1,83 @@
+{
+  "description": "Product of sar_coherence_test_no_time",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180,
+          -90,
+          180,
+          90
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          null,
+          null
+        ]
+      ]
+    }
+  },
+  "id": "sar-coherence-test-no-time",
+  "license": "proprietary",
+  "links": [
+    {
+      "href": "http://ceos.org/ard/files/PFS/SR/v5.0/CARD4L_Product_Family_Specification_Surface_Reflectance-v5.0.pdf",
+      "rel": "card4l-document",
+      "type": "application/pdf"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/3d-earth/collection.json",
+      "type": "application/json",
+      "title": "Project: 3D-EARTH"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "via",
+      "href": "https://s3.waw4-1.cloudferro.com/products/dev/sar-coherence-test-no-time/openEO_2018-01-28Z.tif",
+      "title": "Access openEO_2018-01-28Z.tif"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "stac_version": "1.0.0",
+  "title": "sar_coherence_test_no_time - Product",
+  "type": "Collection",
+  "osc:missions": [],
+  "osc:project": "3d-earth",
+  "osc:status": "completed",
+  "osc:type": "product",
+  "osc:variables": [],
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ]
+}

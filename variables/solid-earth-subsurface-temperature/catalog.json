@@ -35,6 +35,18 @@
       "title": "Theme: Cryosphere"
     },
     {
+      "rel": "child",
+      "href": "../../products/cci-permafrost/collection.json",
+      "type": "application/json",
+      "title": "cci-permafrost"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/oceans/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Oceans"
+    },
+    {
       "rel": "self",
       "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/variables/solid-earth-subsurface-temperature/catalog.json",
       "type": "application/json"
@@ -43,7 +55,7 @@
   "stac_extensions": [
     "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
   ],
-  "updated": "2025-03-17T14:30:23.383991+00:00",
+  "updated": "2026-03-06T17:54:07.623297+00:00",
   "themes": [
     {
       "scheme": "https://github.com/stac-extensions/osc#theme",

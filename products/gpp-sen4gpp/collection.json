@@ -142,7 +142,7 @@
   "fair:Findable_indexed_approved_data": true,
   "fair:Accessible_general": true,
   "fair:Accessible_protocols": true,
-  "fair:Accessible_files": 0.0,
+  "fair:Accessible_files": 1.0,
   "fair:Interoperable_uses_formal_language": true,
   "fair:Interoperable_controlled_vocabularies": true,
   "fair:Interoperable_related_links": true,

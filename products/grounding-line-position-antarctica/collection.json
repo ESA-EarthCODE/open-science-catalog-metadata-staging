@@ -159,7 +159,7 @@
     "Glaciers",
     "Grounding Line"
   ],
-  "fair:Findable_has_doi": true,
+  "fair:Findable_has_doi": false,
   "fair:Findable_rich_metadata": true,
   "fair:Findable_identifier": true,
   "fair:Findable_stac_assets": false,

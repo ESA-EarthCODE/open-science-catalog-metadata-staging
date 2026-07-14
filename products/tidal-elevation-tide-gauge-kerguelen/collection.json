@@ -51,9 +51,10 @@
       "title": "EO Mission: CryoSat-2"
     },
     {
-      "rel": "self",
-      "href": "https://esa-earthcode.github.io/open-science-catalog-metadata/products/tidal-elevation-tide-gauge-kerguelen/collection.json",
-      "type": "application/json"
+      "rel": "item",
+      "href": "./tidal-elevation-gps-prediction-kerguelen.json",
+      "type": "application/json",
+      "title": "Tidal elevation predictions around Kerguelen"
     }
   ],
   "stac_extensions": [
@@ -93,10 +94,10 @@
     "spatial": {
       "bbox": [
         [
-          -90,
-          -68,
-          -60,
-          71
+      69.45333099365234,
+      -49.94333267211914,
+      70.16666412353516,
+      -47.66999816894531
         ]
       ]
     },

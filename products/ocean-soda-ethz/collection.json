@@ -65,6 +65,11 @@
       "title": "Theme: Oceans"
     },
     {
+      "rel": "visualisation",
+      "href": "https://oceanacidificationstripes.info/c/ph/basins/pacificocean/equatorial7sto7n",
+      "title": "Dataset visualisation"
+    },
+    {
       "rel": "cite-as",
       "href": "https://doi.org/10.25921/m5wx-ja34"
     },

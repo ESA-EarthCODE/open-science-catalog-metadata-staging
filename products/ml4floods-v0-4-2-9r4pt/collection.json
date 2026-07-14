@@ -1,0 +1,104 @@
+{
+  "type": "Collection",
+  "id": "ml4floods-v0-4-2-9r4pt",
+  "stac_version": "1.1.0",
+  "description": "ML4Floods is an end-to-end ML pipeline for flood extent estimation using optical satellite data from Sentinel-2 or Landsat-8/9 acquisition",
+  "links": [
+    {
+      "rel": "via",
+      "href": "https://eoap.github.io/app-ml4floods/",
+      "title": "User Manual"
+    },
+    {
+      "rel": "related",
+      "href": "../../projects/geohazards-tep/collection.json",
+      "type": "application/json",
+      "title": "Project: Geohazards"
+    },
+    {
+      "rel": "root",
+      "href": "../../catalog.json",
+      "type": "application/json",
+      "title": "Open Science Catalog"
+    },
+    {
+      "rel": "parent",
+      "href": "../catalog.json",
+      "type": "application/json",
+      "title": "Products"
+    },
+    {
+      "rel": "related",
+      "href": "../../experiments/ml4floods-v0-4-2-9r4pt/record.json",
+      "type": "application/json",
+      "title": "Experiment: ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data"
+    },
+    {
+      "rel": "related",
+      "href": "../../themes/land/catalog.json",
+      "type": "application/json",
+      "title": "Theme: Land"
+    },
+    {
+      "rel": "via",
+      "href": "https://processing.geohazards-tep.eu/7465727261647565/jobs/ml4floods-v0-4-2-9r4pt/results",
+      "type": "application/json",
+      "title": "OGC API Processes - Job Results: ml4floods-v0-4-2-9r4pt"
+    },
+    {
+      "rel": "output",
+      "href": "./output.yaml",
+      "type": "application/yaml",
+      "title": "Output parameter"
+    }
+  ],
+  "stac_extensions": [
+    "https://stac-extensions.github.io/osc/v1.0.0/schema.json",
+    "https://stac-extensions.github.io/themes/v1.0.0/schema.json"
+  ],
+  "osc:project": "geohazards-tep",
+  "osc:experiment": "ml4floods-v0-4-2-9r4pt",
+  "osc:type": "product",
+  "osc:status": "completed",
+  "themes": [
+    {
+      "scheme": "https://github.com/stac-extensions/osc#theme",
+      "concepts": [
+        {
+          "id": "land"
+        }
+      ]
+    }
+  ],
+  "created": "2026-03-31T17:13:06Z",
+  "updated": "2026-03-31T17:13:06Z",
+  "title": "ML4Floods inference for flood extent estimation using pre-trained model on Sentinel-2 or Landsat-9 data",
+  "extent": {
+    "spatial": {
+      "bbox": [
+        [
+          -180.0,
+          -90.0,
+          180.0,
+          90.0
+        ]
+      ]
+    },
+    "temporal": {
+      "interval": [
+        [
+          "2026-03-24T08:41:47Z",
+          "2026-03-24T09:12:26Z"
+        ]
+      ]
+    }
+  },
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "CWL",
+    "CWL Workflow",
+    "Workflow",
+    "Earth Observation",
+    "Earth Observation application package"
+  ]
+}
